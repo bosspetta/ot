@@ -1,0 +1,42 @@
+footer {
+    padding-block: 3rem;
+    text-align: center;
+    opacity: .85;
+    p {
+        text-transform: uppercase;
+        font-size: .805rem;
+        font-weight: 300;
+        letter-spacing: .05rem;
+        color: var(--clr-primary);
+        a {
+            text-transform: lowercase;
+            text-decoration: none;
+            color: var(--clr-primary);
+            font-weight: 400;
+        }
+    }
+    .whatsapp {
+        display: inline-block;
+        background-color: var(--clr-primary);
+        background-size: 20px auto;
+        background-position: 15px center;
+        font-weight: 700;
+        font-size: 0.875rem;
+        color: var(--clr-white);
+        line-height: 1.25;
+        text-transform: uppercase;
+        border-radius: 10px;
+        padding: 1rem 1rem 1rem 45px;
+        margin-block: .875rem;
+    }
+}
+
+.logo {
+    font-size: 5rem;
+    text-transform: none;
+}
+
+.whatsapp {
+    background: transparent url('../img/ico/ico-whatsapp.svg') left center no-repeat;
+    padding-left: 25px;
+}
