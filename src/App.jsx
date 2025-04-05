@@ -4,16 +4,16 @@ import ScrollToTop from './components/ScrollToTop'
 
 import Layout from './layout'
 import Home from './pages/Home'
-import QueEsEnon from './pages/QueEsEnon'
-import Yoga from './pages/Yoga'
-import Mindfulness from './pages/Mindfulness'
-import YogaRestaurativo from './pages/YogaRestaurativo'
-import Quiromasaje from './pages/Quiromasaje'
-import Contacto from './pages/Contacto'
+import About from './pages/About'
+import Academy from './pages/Academy'
+import Megan from './pages/Megan'
+
+import OneToOne from './pages/OneToOne'
+import EnglishGroups from './pages/EnglishGroups'
+import MeganClasses from './pages/MeganClasses'
+import Materials from './pages/Materials'
+
 import NoMatch from './pages/NoMatch'
-import SchedulesPrices from './pages/SchedulesPrices'
-import Normas from './pages/Normas'
-import External from './pages/External'
 
 export default function App() {
     return (
@@ -22,15 +22,14 @@ export default function App() {
                 <Routes>
                     <Route path='/' element={<Layout />}>
                         <Route index element={<Home />} />
-                        <Route path='/que-es-enon' element={<QueEsEnon />} />
-                        <Route path='/yoga' element={<Yoga />} />
-                        <Route path='/mindfulness' element={<Mindfulness />} />
-                        <Route path='/yoga/restaurativo' element={<YogaRestaurativo />} />
-                        <Route path='/masaje' element={<Quiromasaje />} />
-                        <Route path='/mas-actividades' element={<External />} />
-                        <Route path='/contacto' element={<Contacto />} />
-                        <Route path='/horarios' element={<SchedulesPrices />} />
-                        <Route path='/normas' element={<Normas />} />
+                        <Route path='/about' element={<About />} />
+                        <Route path='/academy' element={<Academy />} />
+                        <Route path='/megan' element={<Megan />} />
+
+                        <Route path='/one-to-one' element={<OneToOne />} />
+                        <Route path='/groups' element={<EnglishGroups />} />
+                        <Route path='/megan-classes' element={<MeganClasses />} />
+                        <Route path='/materials' element={<Materials />} />
 
                         <Route path='*' element={<NoMatch status={404} />} />
                     </Route>

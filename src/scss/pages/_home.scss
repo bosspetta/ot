@@ -1,0 +1,24 @@
+.intro-quote__quote {
+    font-family: "Playfair Display", serif;
+    font-size: 1.25rem;
+}
+
+.top-decoration {
+    margin-bottom: -10px;
+}
+
+.intro-links {
+    list-style-type: none;
+    display: grid;
+    gap: 15px;
+    &__link {
+        text-decoration: none;
+        background-color: var(--clr-primary);
+        color: white;
+        display: block;
+        border-radius: 10px;
+        padding: 15px 20px;
+        text-align: center;
+        font-weight: 500;
+    }
+}

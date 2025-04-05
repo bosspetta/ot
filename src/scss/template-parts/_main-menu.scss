@@ -1,72 +1,49 @@
 .main-menu {
     position: fixed;
+    right: -100dvw;
     top: 0;
-    left: 0;
-    background: var(--clr-accent) url('../img/enon-simbolo.svg') center center no-repeat;
-    background-size: 180%;
+    display: flex;
+    flex-direction: column;
+    width: 100dvw;
     height: 100dvh;
-    width: 80%;
-    padding: .9375rem;
-    animation: menuIn .3s ease-in-out;
-    display: none;
-    z-index: 1;
-    @media screen and (min-width: 75em) {
-        display: flex;
-        width: 255px;
-    }
+    background-color: white;
+    transition: right .3s ease;
     &.menu-opened {
-        display: flex;
+        right: 0;
     }
     &__items {
-        margin: 0;
-        padding: 0;
+        flex: 1;
         list-style-type: none;
-        align-self: center;
-        &--inner {
-            padding-left: 1rem;
-        }
+        margin-top: 15px;
+        border-top: 1px solid var(--clr-primary-light);
+        background-color: var(--clr-primary-light);
+    }
+    &__logo {
+        display: block;
+        max-width: 150px;
+        margin-inline: auto;
+        margin-top: 15px;
     }
     &__link {
-        display: block;
-        margin-bottom: .9375rem;
-        font-size: .875rem;
         text-decoration: none;
+        display: block;
         text-transform: uppercase;
-        letter-spacing: .05rem;
-        color: var(--clr-light);
-        &:hover,
-        &:focus {
-            text-decoration: underline;
+        font-weight: 500;
+        letter-spacing: .015rem;
+        font-size: .85rem;
+        border-bottom: 1px solid rgba(white,.5);
+        padding-block: 15px;
+        text-align: center;
+        &:focus,
+        &:hover {
+            background-color: rgba(white,.5);
         }
-        &.selected {
-            font-weight: 700;
-            position: relative;
-            padding-left: 20px;
-            &::before {
-                content: '';
-                width: 0;
-                height: 0;
-                border-style: solid;
-                border-width: 5px 0 5px 10px;
-                border-color: transparent transparent transparent var(--clr-light);
-                position: absolute;
-                left: 0;
-                top: calc(50% - 5px)
-            }
-            &:hover,
-            &:focus {
-                text-decoration: none;
-            }
+        &.selected,
+        &.selected:hover,
+        &.selected:focus {
+            background-color: var(--clr-primary);
+            color: white;
+            border: none;
         }
     }
 }
-
-@keyframes menuIn {
-    0% {
-        left: -100%;
-    }
-    100% {
-        left: 0;
-    }
-}
-

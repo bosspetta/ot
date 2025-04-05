@@ -1,36 +1,39 @@
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
+import meganOscar from '../assest/img/megan-oscar.png'
+
 export default function Home() {
     const { t } = useTranslation('global')
 
-    document.body.classList.remove('contact-page')
-    document.body.classList.remove('no-found-page')
-    document.body.classList.remove('enon-page')
-    document.body.classList.remove('chiromassage-page')
-    document.body.classList.remove('yoga-page')
-    document.body.classList.remove('yoga-restaurativo-page')
-    document.body.classList.remove('schedules-page')
-    document.body.classList.remove('rules-page')
-    document.body.classList.remove('external-page')
-    document.body.classList.remove('mindfulness-page')
-    document.body.classList.add('home-page')
-
     return (
-        <main className="page-content">
-            <h2 className="page-title">{t( "home.welcome-title" )}</h2>
-            <p>{t( "home.intro" )}</p>
+        <section className="page-content">
+            <h2 className="page-title sr-only">{t( "home.title" )}</h2>
+            <div className="top-decoration">
+                <div className="intro-quote">
+                    <p className="intro-quote__wrapper">
+                        <span className="intro-quote__quote">{t( "home.intro" )}</span> <br />
+                        <span className="intro-quote__author">— Flora Lewis</span>
+                    </p>
+                </div>
+                <div className="teachers" aria-hidden="true" role="presentation">
+                    <img src={meganOscar} alt="" />
+                </div>
+            </div>
             <ul className="intro-links">
-                <li className="intro-links__item"><Link className="intro-links__link" to='/que-es-enon'>{t( "main-menu.que-es" )}</Link></li>
-                <li className="intro-links__item"><Link className="intro-links__link" to='/yoga'>Yoga Classes</Link></li>
-                <li className="intro-links__item"><Link className="intro-links__link" to='/yoga/restaurativo'>{t( "yoga-restaurativo" )}</Link></li>
-                <li className="intro-links__item"><Link className="intro-links__link" to='/masaje'>{t( "main-menu.quiromasaje" )}</Link></li>
-                <li className="intro-links__item"><Link className="intro-links__link" to='/mindfulness'>{t("main-menu.mindfulness")}</Link></li>
-                <li className="intro-links__item"><Link className="intro-links__link intro-links__link--destacado" to='/mas-actividades'>{t("main-menu.actividades")}</Link></li>
-                <li className="intro-links__item"><Link className="intro-links__link" to='/horarios'>{t( "main-menu.horarios" )}</Link></li>
-                <li className="intro-links__item"><Link className="intro-links__link" to='/contacto'>{t( "main-menu.contacto" )}</Link></li>
-                <li className="intro-links__item"><Link className="intro-links__link" to='/normas'>{t( "main-menu.politicas" )}</Link></li>
+                <li className="intro-links__item">
+                    <Link className="intro-links__link" to='/one-to-one'>{t( "intro-links.one-to-one" )}</Link>
+                </li>
+                <li className="intro-links__item">
+                    <Link className="intro-links__link" to='/groups'>{t("intro-links.groups")}</Link>
+                </li>
+                <li className="intro-links__item">
+                    <Link className="intro-links__link" to='/megan-classes'>{t( "intro-links.megan-classes" )}</Link>
+                </li>
+                <li className="intro-links__item">
+                    <Link className="intro-links__link" to='/materials'>{t( "intro-links.materials" )}</Link>
+                </li>
             </ul>
-        </main>
+        </section>
     )
 }

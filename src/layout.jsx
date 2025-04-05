@@ -6,13 +6,13 @@ import Footer from './components/Footer'
 
 export default function Layout() {
     return (
-        <div className="global-container">
+        <main className="main-wrapper">
             <div className="main-content">
                 <Header />
                 <MainMenu />
                 <Outlet />
             </div>
             <Footer />
-        </div>
+        </main>
     )
 }

@@ -1,6 +1,8 @@
 import { NavLink } from "react-router-dom"
 import { useTranslation } from 'react-i18next'
 
+import ota from '../assest/img/logo-ot-academy.svg'
+
 export default function MainMenu() {
 
     const { t } = useTranslation('global')
@@ -13,87 +15,48 @@ export default function MainMenu() {
 
     return (
         <nav id="main-menu" className="main-menu">
+            <img src={ota} alt="" className="main-menu__logo" />
             <ul className="main-menu__items">
                 <li className="main-menu__item">
                     <NavLink
                         className={ ({isActive}) => isActive ? 'main-menu__link selected' : 'main-menu__link' }
                         to='/'
                         onClick={hideMenu}>
-                        {t( "main-menu.inicio" )}
+                        {t( "main-menu.home" )}
+                    </NavLink>
+                </li>
+
+                <li className="main-menu__item">
+                    <NavLink
+                        className={ ({isActive}) => isActive ? 'main-menu__link selected' : 'main-menu__link' }
+                        to='/about'
+                        onClick={hideMenu}>
+                        {t( "main-menu.about" )}
                     </NavLink>
                 </li>
                 <li className="main-menu__item">
                     <NavLink
                         className={ ({isActive}) => isActive ? 'main-menu__link selected' : 'main-menu__link' }
-                        to='/que-es-enon'
+                        to='/academy'
                         onClick={hideMenu}>
-                        {t( "main-menu.que-es" )}
+                        {t( "main-menu.academy" )}
                     </NavLink>
                 </li>
                 <li className="main-menu__item">
                     <NavLink
                         className={ ({isActive}) => isActive ? 'main-menu__link selected' : 'main-menu__link' }
-                        to='/yoga'
+                        to='/megan'
                         onClick={hideMenu}>
-                        Yoga
-                    </NavLink>
-                    <ul className="main-menu__items main-menu__items--inner">
-                        <li className="main-menu__item">
-                            <NavLink
-                                className={({ isActive }) => isActive ? 'main-menu__link selected' : 'main-menu__link'}
-                                to='/yoga/restaurativo'
-                                onClick={hideMenu}>
-                                {t( "main-menu.restaurativo" )}
-                            </NavLink>
-                        </li>
-                    </ul>
-                </li>
-                <li className="main-menu__item">
-                    <NavLink
-                        className={({ isActive }) => isActive ? 'main-menu__link selected' : 'main-menu__link'}
-                        to='/mindfulness'
-                        onClick={hideMenu}>
-                        Mindfulness
+                        {t( "main-menu.megan" )}
                     </NavLink>
                 </li>
                 <li className="main-menu__item">
                     <NavLink
                         className={ ({isActive}) => isActive ? 'main-menu__link selected' : 'main-menu__link' }
-                        to='/masaje'
+                        to='https://webaim.org/resources/contrastchecker/'
+                        target="_blank"
                         onClick={hideMenu}>
-                        {t( "main-menu.quiromasaje" )}
-                    </NavLink>
-                </li>
-                <li className="main-menu__item">
-                    <NavLink
-                        className={({ isActive }) => isActive ? 'main-menu__link selected' : 'main-menu__link'}
-                        to='/mas-actividades'
-                        onClick={hideMenu}>
-                        {t("main-menu.actividades")}
-                    </NavLink>
-                </li>
-                <li className="main-menu__item">
-                    <NavLink
-                        className={ ({isActive}) => isActive ? 'main-menu__link selected' : 'main-menu__link' }
-                        to='/horarios'
-                        onClick={hideMenu}>
-                        {t( "main-menu.horarios" )}
-                    </NavLink>
-                </li>
-                <li className="main-menu__item">
-                    <NavLink
-                        className={ ({isActive}) => isActive ? 'main-menu__link selected' : 'main-menu__link' }
-                        to='/contacto'
-                        onClick={hideMenu}>
-                        {t( "main-menu.contacto" )}
-                    </NavLink>
-                </li>
-                <li className="main-menu__item">
-                    <NavLink
-                        className={({ isActive }) => isActive ? 'main-menu__link selected' : 'main-menu__link'}
-                        to='/normas'
-                        onClick={hideMenu}>
-                        {t("main-menu.politicas")}
+                        Blog
                     </NavLink>
                 </li>
             </ul>
