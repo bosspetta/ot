@@ -20,6 +20,9 @@ body::before {
 }
 
 .site-title {
+    @media screen and (min-width: 1200px) {
+        display: flex;
+    }
     &__home-link {
         display: block;
         text-align: center;
@@ -27,5 +30,10 @@ body::before {
         background: transparent url('/img/logo-ot-academy.svg') center center no-repeat;
         margin-inline: auto;
         background-size: contain;
+        @media screen and (min-width: 1200px) {
+            height: 125px;
+            width: 160px;
+            margin-left: 0;
+        }
     }
 }

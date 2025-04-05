@@ -5,20 +5,36 @@
 
 .top-decoration {
     margin-bottom: -10px;
+    .teachers {
+        img {
+            max-height: 300px;
+            display: block;
+            margin-inline: auto;
+        }
+    }
 }
 
 .intro-links {
     list-style-type: none;
     display: grid;
     gap: 15px;
+    @media screen and (min-width: 576px) {
+        grid-template-columns: 1fr 1fr;
+    }
+    @media screen and (min-width: 992px) {
+        grid-template-columns: repeat(4, 1fr);
+    }
     &__link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         text-decoration: none;
         background-color: var(--clr-primary);
         color: white;
-        display: block;
         border-radius: 10px;
         padding: 15px 20px;
         text-align: center;
         font-weight: 500;
+        height: 100%;
     }
 }
