@@ -979,6 +979,11 @@ body::before {
   position: relative;
 }
 
+@media screen and (min-width: 1200px) {
+  .site-title {
+    display: flex;
+  }
+}
 .site-title__home-link {
   display: block;
   text-align: center;
@@ -986,6 +991,13 @@ body::before {
   background: transparent url("/img/logo-ot-academy.svg") center center no-repeat;
   margin-inline: auto;
   background-size: contain;
+}
+@media screen and (min-width: 1200px) {
+  .site-title__home-link {
+    height: 125px;
+    width: 160px;
+    margin-left: 0;
+  }
 }
 
 .main-menu {
@@ -1076,21 +1088,39 @@ body::before {
 .top-decoration {
   margin-bottom: -10px;
 }
+.top-decoration .teachers img {
+  max-height: 300px;
+  display: block;
+  margin-inline: auto;
+}
 
 .intro-links {
   list-style-type: none;
   display: grid;
   gap: 15px;
 }
+@media screen and (min-width: 576px) {
+  .intro-links {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (min-width: 992px) {
+  .intro-links {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
 .intro-links__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
   background-color: var(--clr-primary);
   color: white;
-  display: block;
   border-radius: 10px;
   padding: 15px 20px;
   text-align: center;
   font-weight: 500;
+  height: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */
