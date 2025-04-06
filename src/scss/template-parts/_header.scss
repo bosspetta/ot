@@ -1,13 +1,26 @@
-body::before {
-    content: '';
-    width: 90%;
-    height: 200px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: transparent url('/img/deco-01.svg') 0 0 no-repeat;
-    background-size: contain;
-    z-index: -1;
+body {
+    &::before {
+        content: '';
+        width: 90%;
+        height: 200px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: transparent url('/img/deco-01.svg') 0 0 no-repeat;
+        background-size: contain;
+        z-index: -1;
+    }
+    &::after {
+        content: "";
+        width: 90%;
+        height: 200px;
+        position: absolute;
+        top: 10%;
+        right: 0;
+        background: transparent url('/img/deco-02.svg') 100% 0 no-repeat;
+        background-size: contain;
+        z-index: -1;
+    }
 }
 
 .main-header {
@@ -17,11 +30,15 @@ body::before {
     padding-inline: calc(30px * .5);
     padding-top: 15px;
     position: relative;
+    @media screen and (min-width: 1200px) {
+        margin-bottom: -5rem;
+    }
 }
 
 .site-title {
     @media screen and (min-width: 1200px) {
         display: flex;
+        width: fit-content;
     }
     &__home-link {
         display: block;
@@ -31,9 +48,11 @@ body::before {
         margin-inline: auto;
         background-size: contain;
         @media screen and (min-width: 1200px) {
-            height: 125px;
-            width: 160px;
+            width: 200px;
+            height: 175px;
             margin-left: 0;
+            position: relative;
+            z-index: 1;
         }
     }
 }

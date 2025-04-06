@@ -19,6 +19,9 @@ a {
 
 .main-content {
     overflow-x: hidden;
+    @media screen and (min-width: 1200px) {
+        overflow-x: initial;
+    }
 }
 
 .sr-only {
@@ -34,4 +37,6 @@ a {
 
 .page-content {
     padding-inline: calc(30px * .5);
+    max-width: 1366px;
+    margin-inline: auto;
 }
