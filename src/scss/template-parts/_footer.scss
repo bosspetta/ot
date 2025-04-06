@@ -11,7 +11,7 @@
     max-width: 1366px;
     margin-inline: auto;
     font-size: .875rem;
-    @media screen and (min-width: 992px) {
+    @media screen and (min-width: 1024px) {
         grid-template-columns: repeat(3, 1fr);
         text-align: left;
     }
