@@ -1155,7 +1155,7 @@ body::after {
   margin-inline: auto;
   font-size: 0.875rem;
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1024px) {
   .main-footer {
     grid-template-columns: repeat(3, 1fr);
     text-align: left;
@@ -1248,7 +1248,7 @@ body::after {
     grid-template-columns: 1fr 1fr;
   }
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1024px) {
   .intro-links {
     grid-template-columns: repeat(4, 1fr);
   }
