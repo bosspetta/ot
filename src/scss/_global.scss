@@ -17,6 +17,26 @@ a {
     color: var(--clr-primary);
 }
 
+.btn {
+    background-color: var(--clr-primary);
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    font-size: .75rem;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: .025rem;
+    display: block;
+    padding: 11px 15px;
+}
+
+.page-title {
+    @media screen and (min-width: 1200px) {
+        font-size: 1.75rem;
+    }
+}
+
 .main-content {
     overflow-x: hidden;
     @media screen and (min-width: 1200px) {
@@ -39,4 +59,76 @@ a {
     padding-inline: calc(30px * .5);
     max-width: 1366px;
     margin-inline: auto;
+}
+
+.cta {
+    margin-inline: calc(-30px * .5);
+    margin-block: 30px;
+    padding: calc(30px * .5);
+    position: relative;
+    color: white;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: rgba(7,0,113,.5);
+    }
+    &__wrapper {
+        position: relative;
+    }
+    &__title {
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+        text-align: center;
+        color: var(--clr-cat);
+    }
+    &__list {
+        list-style-type: none;
+        text-align: center;
+        display: grid;
+        gap: 15px 0;
+        margin-bottom: 1rem;
+        strong {
+            display: block;
+        }
+    }
+    &__text {
+        display: block;
+        margin-bottom: 7.5px;
+    }
+    &__btn-wrapper {
+        margin-bottom: 15px;
+    }
+}
+
+.stories {
+    &__title {
+        margin-bottom: 1rem;
+        color: var(--clr-primary);
+        text-align: center;
+    }
+    &__storie {
+        margin-bottom: 2rem;
+    }
+    &__grid {
+        &__item {
+            &__text {
+                &__phrase {
+                    display: block;
+                    font-family: "Playfair Display", serif;
+                    font-size: 1.35rem;
+                    margin-bottom: 15px;
+                }
+                &__author {
+                    display: block;
+                    text-align: right;
+                    font-size: .875rem;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
 }

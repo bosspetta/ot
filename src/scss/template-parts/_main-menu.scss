@@ -20,7 +20,10 @@
         margin-inline: auto;
         background-color: transparent;
         margin-top: -8rem;
-        margin-bottom: 2rem;
+        margin-bottom: 6rem;
+        body:has(.page-content--home) & {
+            margin-bottom: 2rem;
+        }
     }
     &.menu-opened {
         right: 0;

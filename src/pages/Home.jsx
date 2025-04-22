@@ -7,7 +7,7 @@ export default function Home() {
     const { t } = useTranslation('global')
 
     return (
-        <section className="page-content">
+        <section className="page-content page-content--home">
             <h2 className="page-title sr-only">{t( "home.title" )}</h2>
             <div className="top-decoration">
                 <div className="intro-quote">

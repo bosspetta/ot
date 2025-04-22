@@ -1,0 +1,62 @@
+.page-header {
+    &__data {
+        &__img {
+            display: flex;
+            background: var(--clr-primary-light) url('/img/header-1-on-1.svg') center center no-repeat;
+            background-size: cover;
+            border-top: 15px solid var(--clr-primary-light);
+            padding: calc(30px * .5);
+            padding-bottom: 0;
+            justify-content: center;
+            margin-inline: calc(-30px * .5);
+            margin-block: 15px;
+            img {
+                max-height: 250px;
+            }
+        }
+    }
+    &__title {
+        margin-bottom: 1rem;
+    }
+}
+
+.cta {
+    &--one-to-one {
+        background: var(--clr-primary-light) url('/img/back-cta-01.jpg') center center no-repeat;
+        background-size: cover;
+    }
+    &--curso {
+        margin-top: -30px;
+        background: var(--clr-primary-light) url('/img/back-curso-01.jpg') center center no-repeat;
+        background-size: cover;
+        color: black;
+        &::before {
+            background-color: rgba(white,.35);
+        }
+        .cta__title {
+            color: var(--clr-primary);
+        }
+    }
+    &--faqs {
+        margin-top: -30px;
+        color: black;
+        &::before {
+            background-color: var(--clr-bg-light);
+        }
+        .cta__title {
+            color: var(--clr-primary);
+        }
+    }
+    &--oscar {
+        margin-top: -30px;
+        color: black;
+        background: url('/img/back-metodo-oscar-01.jpg') center center no-repeat;
+        background-size: cover;
+        &::before {
+            background-color: rgba(white,.9);
+        }
+        .cta__title {
+            color: var(--clr-primary);
+        }
+    }
+}

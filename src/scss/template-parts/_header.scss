@@ -31,7 +31,9 @@ body {
     padding-top: 15px;
     position: relative;
     @media screen and (min-width: 1200px) {
-        margin-bottom: -5rem;
+        body:has(.page-content--home) & {
+            margin-bottom: -5rem;
+        }
     }
 }
 
