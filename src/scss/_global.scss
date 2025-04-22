@@ -29,6 +29,10 @@ a {
     letter-spacing: .025rem;
     display: block;
     padding: 11px 15px;
+    @media screen and (min-width: 992px) {
+        max-width: fit-content;
+        margin-inline: auto;
+    }
 }
 
 .page-title {
@@ -57,8 +61,11 @@ a {
 
 .page-content {
     padding-inline: calc(30px * .5);
-    max-width: 1366px;
+}
+
+.container {
     margin-inline: auto;
+    max-width: 1366px;
 }
 
 .cta {
@@ -84,6 +91,16 @@ a {
         text-transform: uppercase;
         text-align: center;
         color: var(--clr-cat);
+        @media screen and (min-width: 992px) {
+            font-size: 1.75rem;
+        }
+    }
+    &__subtitle {
+        font-family: "Playfair Display", serif;
+        font-weight: normal;
+        font-size: 1.15rem;
+        margin-bottom: 1rem;
+        text-align: center;
     }
     &__list {
         list-style-type: none;
@@ -109,13 +126,41 @@ a {
         margin-bottom: 1rem;
         color: var(--clr-primary);
         text-align: center;
+        @media screen and (min-width: 992px) {
+            font-size: 1.75rem;
+            margin-bottom: 2rem;
+        }
     }
     &__storie {
         margin-bottom: 2rem;
+        &:nth-child(odd) .stories__grid__item {
+            @media screen and (min-width: 768px) {
+                flex-direction: row-reverse;
+            }
+        }
     }
     &__grid {
         &__item {
+            @media screen and (min-width: 768px) {
+                display: flex;
+                gap: 0 calc(30px * .5);
+            }
+            &__img {
+                @media screen and (min-width: 768px) {
+                    flex-basis: 50%;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+                    }
+                }
+            }
             &__text {
+                @media screen and (min-width: 768px) {
+                    flex-basis: 50%;
+                    display: flex;
+                    align-items: center;
+                }
                 &__phrase {
                     display: block;
                     font-family: "Playfair Display", serif;
@@ -129,6 +174,12 @@ a {
                     margin-bottom: 15px;
                 }
             }
+        }
+    }
+    &__wrapper {
+        @media screen and (min-width: 992px) {
+            max-width: 75%;
+            margin-inline: auto;
         }
     }
 }

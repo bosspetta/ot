@@ -8,7 +8,9 @@ export default function OneToOne() {
 
     return (
         <section className="page-content">
-            <h2 className="page-title">{t("one-to-one.title")}</h2>
+            <div className="container">
+                <h2 className="page-title">{t("one-to-one.title")}</h2>
+            </div>
             <header className="page-header page-header--1on1">
                 <div className="page-header__data">
                     <div className="page-header__data__img">
@@ -41,40 +43,42 @@ export default function OneToOne() {
                 </div>
             </section>
             <section className="stories">
-                <div className="stories__wrapper">
-                    <h3 className="stories__title">Testimonios</h3>
-                    <div className="stories__storie">
-                        <div className="stories__grid">
-                            <div className="stories__grid__item">
-                                <div className="stories__grid__item__img">
-                                    <img src="/img/temp/stories-01.jpg" alt="" />
-                                </div>
-                                <div className="stories__grid__item__text">
-                                    <p><span className="stories__grid__item__text__phrase">«Pasé de sentirme inseguro en reuniones a hablar con confianza. La diferencia fue abismal.»</span> <span className="stories__grid__item__text__author">— Daniel R., Project Manager</span></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="stories__storie">
-                        <div className="stories__grid">
-                            <div className="stories__grid__item">
-                                <div className="stories__grid__item__img">
-                                    <img src="/img/temp/stories-02.jpg" alt="" />
-                                </div>
-                                <div className="stories__grid__item__text">
-                                    <p><span className="stories__grid__item__text__phrase">«Oscar me enseñó exactamente lo que necesitaba para mi entrevista en inglés y conseguí el trabajo.»</span> <span className="stories__grid__item__text__author">— María L., Ejecutiva de Ventas</span></p>
+                <div className="container">
+                    <div className="stories__wrapper">
+                        <h3 className="stories__title">Testimonios</h3>
+                        <div className="stories__storie">
+                            <div className="stories__grid">
+                                <div className="stories__grid__item">
+                                    <div className="stories__grid__item__img">
+                                        <img src="/img/temp/stories-01.jpg" alt="" />
+                                    </div>
+                                    <div className="stories__grid__item__text">
+                                        <p><span className="stories__grid__item__text__phrase">«Pasé de sentirme inseguro en reuniones a hablar con confianza. La diferencia fue abismal.»</span> <span className="stories__grid__item__text__author">— Daniel R., Project Manager</span></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="stories__storie">
-                        <div className="stories__grid">
-                            <div className="stories__grid__item">
-                                <div className="stories__grid__item__img">
-                                    <img src="/img/temp/stories-03.jpg" alt="" />
+                        <div className="stories__storie">
+                            <div className="stories__grid">
+                                <div className="stories__grid__item">
+                                    <div className="stories__grid__item__img">
+                                        <img src="/img/temp/stories-02.jpg" alt="" />
+                                    </div>
+                                    <div className="stories__grid__item__text">
+                                        <p><span className="stories__grid__item__text__phrase">«Oscar me enseñó exactamente lo que necesitaba para mi entrevista en inglés y conseguí el trabajo.»</span> <span className="stories__grid__item__text__author">— María L., Ejecutiva de Ventas</span></p>
+                                    </div>
                                 </div>
-                                <div className="stories__grid__item__text">
-                                    <p><span className="stories__grid__item__text__phrase">«Las sesiones son dinámicas y efectivas. Se nota la diferencia de aprender con un mentor real.»</span> <span className="stories__grid__item__text__author">— Javier T., Ingeniero</span></p>
+                            </div>
+                        </div>
+                        <div className="stories__storie">
+                            <div className="stories__grid">
+                                <div className="stories__grid__item">
+                                    <div className="stories__grid__item__img">
+                                        <img src="/img/temp/stories-03.jpg" alt="" />
+                                    </div>
+                                    <div className="stories__grid__item__text">
+                                        <p><span className="stories__grid__item__text__phrase">«Las sesiones son dinámicas y efectivas. Se nota la diferencia de aprender con un mentor real.»</span> <span className="stories__grid__item__text__author">— Javier T., Ingeniero</span></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>

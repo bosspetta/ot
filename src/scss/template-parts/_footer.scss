@@ -1,6 +1,8 @@
 .main-footer {
     border-top: 1px solid var(--clr-primary-light);
     margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-inline: auto;
     padding-top: 2rem;
     padding-inline: calc(30px * .5);
     display: grid;
@@ -9,7 +11,6 @@
     z-index: -1;
     position: relative;
     max-width: 1366px;
-    margin-inline: auto;
     font-size: .875rem;
     @media screen and (min-width: 1024px) {
         grid-template-columns: repeat(3, 1fr);
