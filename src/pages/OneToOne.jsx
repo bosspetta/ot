@@ -101,7 +101,7 @@ export default function OneToOne() {
                     </ul>
                 </div>
             </section>
-            <section className="cta cta--curso">
+            <section className="cta cta--curso cta--curso--one-to-one">
                 <div className="cta__wrapper">
                     <h3 className="cta__title">Detalles del curso</h3>
                     <ul className="cta__list">
@@ -119,7 +119,7 @@ export default function OneToOne() {
                     </div>
                 </div>
             </section>
-            <section className="cta cta--faqs">
+            <section className="cta cta--faqs cta--faqs--one-to-one">
                 <div className="cta__wrapper">
                     <h3 className="cta__title">Preguntas frecuentes</h3>
                     <ul className="cta__list">

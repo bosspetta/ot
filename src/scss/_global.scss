@@ -36,6 +36,8 @@ a {
 }
 
 .page-title {
+    line-height: 1.15;
+    margin-bottom: 1rem;
     @media screen and (min-width: 1200px) {
         font-size: 1.75rem;
     }
@@ -61,125 +63,13 @@ a {
 
 .page-content {
     padding-inline: calc(30px * .5);
+    body.menu-opened & {
+        position: relative;
+        z-index: -1;
+    }
 }
 
 .container {
     margin-inline: auto;
     max-width: 1366px;
-}
-
-.cta {
-    margin-inline: calc(-30px * .5);
-    margin-block: 30px;
-    padding: calc(30px * .5);
-    position: relative;
-    color: white;
-    &::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        background: rgba(7,0,113,.5);
-    }
-    &__wrapper {
-        position: relative;
-    }
-    &__title {
-        margin-bottom: 1rem;
-        text-transform: uppercase;
-        text-align: center;
-        color: var(--clr-cat);
-        @media screen and (min-width: 992px) {
-            font-size: 1.75rem;
-        }
-    }
-    &__subtitle {
-        font-family: "Playfair Display", serif;
-        font-weight: normal;
-        font-size: 1.15rem;
-        margin-bottom: 1rem;
-        text-align: center;
-    }
-    &__list {
-        list-style-type: none;
-        text-align: center;
-        display: grid;
-        gap: 15px 0;
-        margin-bottom: 1rem;
-        strong {
-            display: block;
-        }
-    }
-    &__text {
-        display: block;
-        margin-bottom: 7.5px;
-    }
-    &__btn-wrapper {
-        margin-bottom: 15px;
-    }
-}
-
-.stories {
-    &__title {
-        margin-bottom: 1rem;
-        color: var(--clr-primary);
-        text-align: center;
-        @media screen and (min-width: 992px) {
-            font-size: 1.75rem;
-            margin-bottom: 2rem;
-        }
-    }
-    &__storie {
-        margin-bottom: 2rem;
-        &:nth-child(odd) .stories__grid__item {
-            @media screen and (min-width: 768px) {
-                flex-direction: row-reverse;
-            }
-        }
-    }
-    &__grid {
-        &__item {
-            @media screen and (min-width: 768px) {
-                display: flex;
-                gap: 0 calc(30px * .5);
-            }
-            &__img {
-                @media screen and (min-width: 768px) {
-                    flex-basis: 50%;
-                    img {
-                        width: 100%;
-                        height: 100%;
-                        object-fit: contain;
-                    }
-                }
-            }
-            &__text {
-                @media screen and (min-width: 768px) {
-                    flex-basis: 50%;
-                    display: flex;
-                    align-items: center;
-                }
-                &__phrase {
-                    display: block;
-                    font-family: "Playfair Display", serif;
-                    font-size: 1.35rem;
-                    margin-bottom: 15px;
-                }
-                &__author {
-                    display: block;
-                    text-align: right;
-                    font-size: .875rem;
-                    margin-bottom: 15px;
-                }
-            }
-        }
-    }
-    &__wrapper {
-        @media screen and (min-width: 992px) {
-            max-width: 75%;
-            margin-inline: auto;
-        }
-    }
 }

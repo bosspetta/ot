@@ -1,0 +1,184 @@
+.cta {
+    margin-inline: calc(-30px * .5);
+    margin-block: 30px;
+    padding: calc(30px * .5);
+    position: relative;
+    color: white;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: rgba(7,0,113,.5);
+    }
+    &__wrapper {
+        position: relative;
+    }
+    &__title {
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+        text-align: center;
+        color: var(--clr-cat);
+        @media screen and (min-width: 992px) {
+            font-size: 1.75rem;
+        }
+    }
+    &__subtitle {
+        font-family: "Playfair Display", serif;
+        font-weight: normal;
+        font-size: 1.15rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    &__list {
+        list-style-type: none;
+        text-align: center;
+        display: grid;
+        gap: 15px 0;
+        margin-bottom: 1rem;
+        @media screen and (min-width: 1200px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            max-width: 1366px;
+            margin-inline: auto;
+            text-align: left;
+            gap: calc(30px * .5) calc(45px * .5);
+        }
+        strong {
+            display: block;
+        }
+    }
+    &__item {
+        &:nth-child(odd):not(:last-child) {
+            @media screen and (min-width: 1200px) {
+                text-align: right;
+            }
+        }
+        &:last-child {
+            @media screen and (min-width: 1200px) {
+                grid-column: 1 / -1;
+                text-align: center;
+            }
+        }
+    }
+    &__text {
+        display: block;
+        margin-bottom: 7.5px;
+    }
+    &__btn-wrapper {
+        margin-bottom: 15px;
+    }
+    &--one-to-one {
+        background: var(--clr-primary-light) url('/img/back-cta-01.jpg') center center no-repeat;
+        background-size: cover;
+        @media screen and (min-width: 992px) {
+            margin-top: -15px;
+            padding-block: calc(120px * .5);
+        }
+    }
+    &--curso {
+        margin-top: -30px;
+        background: var(--clr-primary-light) url('/img/back-curso-01.jpg') center center no-repeat;
+        background-size: cover;
+        color: black;
+        &::before {
+            background-color: rgba(white,.35);
+        }
+        .cta__title {
+            color: var(--clr-primary);
+        }
+        &--eng-groups {
+            background: var(--clr-primary-light) url('/img/back-eng-groups-02.jpg') center center no-repeat;
+            background-size: cover;
+        }
+        &--one-to-one {
+            .cta {
+                &__item {
+                    &:last-child {
+                        @media screen and (min-width: 1200px) {
+                            grid-column: inherit;
+                            text-align: inherit;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &--faqs {
+        margin-top: -30px;
+        color: black;
+        &::before {
+            content: none;
+        }
+        .cta__title {
+            color: var(--clr-primary);
+        }
+        &--groups .cta__item:last-child {
+            @media screen and (min-width: 1200px) {
+                grid-column: inherit;
+                text-align: inherit;
+            }
+        }
+        &--one-to-one {
+            .cta {
+                &__item {
+                    &:last-child {
+                        @media screen and (min-width: 1200px) {
+                            grid-column: inherit;
+                            text-align: inherit;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &--oscar {
+        margin-top: -30px;
+        color: black;
+        background: url('/img/back-metodo-oscar-01.jpg') center center no-repeat;
+        background-size: cover;
+        &::before {
+            background-color: rgba(white,.9);
+        }
+        .cta {
+            &__title {
+                color: var(--clr-primary);
+            }
+            &__list {
+                @media screen and (min-width: 1200px) {
+                    grid-template-columns: 1fr;
+                }
+            }
+            &__item {
+                @media screen and (min-width: 1200px) {
+                    text-align: center;
+                }
+                &:nth-child(2n+1):not(:last-child) {
+                    @media screen and (min-width: 1200px) {
+                       text-align: center;
+                    }
+                }
+                &:last-child {
+                    @media screen and (min-width: 1200px) {
+                        grid-column: inherit;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+    &--price {
+        @media screen and (min-width: 992px) {
+            padding-block: calc(120px * .5);
+        }
+    }
+    &--eng-groups {
+        background: var(--clr-primary-light) url('/img/back-eng-groups-03.jpg') center center no-repeat;
+        background-size: cover;
+        @media screen and (min-width: 992px) {
+            margin-top: -30px;
+        }
+    }
+}

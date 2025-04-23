@@ -7,8 +7,11 @@
 @import 'global';
 
 @import 'template-parts/header';
+@import 'template-parts/page-headers';
 @import 'template-parts/main-menu';
 @import 'template-parts/footer';
+@import 'template-parts/cta';
+@import 'template-parts/stories';
 
 @import 'pages/home';
 @import 'pages/one-to-one';
