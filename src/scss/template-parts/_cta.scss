@@ -105,6 +105,20 @@
                 }
             }
         }
+        &--megan {
+            background: var(--clr-primary-light) url('/img/back-curso-02.jpg') center center no-repeat;
+            background-size: cover;
+            .cta {
+                &__item {
+                    &:last-child {
+                        @media screen and (min-width: 1200px) {
+                            grid-column: inherit;
+                            text-align: inherit;
+                        }
+                    }
+                }
+            }
+        }
     }
     &--faqs {
         margin-top: -30px;

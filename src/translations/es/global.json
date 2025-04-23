@@ -15,28 +15,30 @@
     },
     "main-menu": {
         "home": "Inicio",
-        "about": "Sobre Oscar & Método",
+        "about": "Sobre nosotros & Nuestro método",
         "academy": "Academia & Microlearning",
-        "megan": "Megan & Su estilo"
+        "megan": "Nuestra comunidad"
     },
     "about": {
-        "title": "Sobre Oscar & Método"
+        "title": "Sobre nosotros & Nuestro método"
     },
     "academy": {
         "title": "Academia & Microlearning"
     },
     "megan": {
-        "title": "Megan & su Estilo"
+        "title": "Nuestra comunidad"
     },
     "one-to-one": {
-        "title": "1 a 1 con Oscar, mentoría personalizada, reserva en Calendy…"
+        "title": "Cursos 1 a 1 con Oscar",
+        "subtitle": "Mentoría Personalizada en Inglés"
     },
     "english-groups": {
         "title": "Grupos de inglés de negocios",
         "subtitle": "Domina el inglés para negocios con clases grupales en vivo"
     },
     "megan-classes": {
-        "title": "Clases con Megan, pronunciación y dicción, examen de nivel…"
+        "title": "Clases con Megan",
+        "subtitle": "Perfecciona tu Inglés con Megan: Fluidez, Pronunciación y Comprensión"
     },
     "materials": {
         "title": "Material descargable, guías y ejercicios, acceso en Wisboo…"

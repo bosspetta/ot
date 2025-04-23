@@ -15,28 +15,30 @@
     },
     "main-menu": {
         "home": "Home",
-        "about": "About Oscar & Método",
+        "about": "About us & Our method",
         "academy": "Academy & Microlearning",
-        "megan": "Megan & Su estilo"
+        "megan": "Our community"
     },
     "about": {
-        "title": "About Oscar & Method"
+        "title": "About us & Our method"
     },
     "academy": {
         "title": "Academy & Microlearning"
     },
     "megan": {
-        "title": "Megan & her Style"
+        "title": "Our community"
     },
     "one-to-one": {
-        "title": "1 to 1 with Oscar, personalised mentoring, booking on Calendy…"
+        "title": "1 to 1 courses with Oscar",
+        "subtitle": "Personalised English Mentoring"
     },
     "english-groups": {
         "title": "Business English groups",
         "subtitle": "Master Business English with live group classes"
     },
     "megan-classes": {
-        "title": "Lessons with Megan, pronunciation and diction, placement test…"
+        "title": "Lessons with Megan",
+        "subtitle": "Improve your English with Megan: Fluency, Pronunciation and Comprehension"
     },
     "materials": {
         "title": "Downloadable material, guides and exercises, access on Wisboo…"

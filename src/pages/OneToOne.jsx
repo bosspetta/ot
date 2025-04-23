@@ -10,6 +10,7 @@ export default function OneToOne() {
         <section className="page-content">
             <div className="container">
                 <h2 className="page-title">{t("one-to-one.title")}</h2>
+                <h3 className="page-subtitle">{t("one-to-one.subtitle")}</h3>
             </div>
             <header className="page-header page-header--1on1">
                 <div className="page-header__data">
