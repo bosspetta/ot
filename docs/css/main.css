@@ -1419,6 +1419,16 @@ body::after {
     text-align: inherit;
   }
 }
+.cta--curso--megan {
+  background: var(--clr-primary-light) url("/img/back-curso-02.jpg") center center no-repeat;
+  background-size: cover;
+}
+@media screen and (min-width: 1200px) {
+  .cta--curso--megan .cta__item:last-child {
+    grid-column: inherit;
+    text-align: inherit;
+  }
+}
 .cta--faqs {
   margin-top: -30px;
   color: black;
