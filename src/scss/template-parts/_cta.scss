@@ -148,10 +148,45 @@
     }
     &--oscar {
         margin-top: -30px;
-        background-color: transparent;
         border: none;
+        background: transparent url('/img/oscar.png') center calc(30px * .5) no-repeat;
+        background-size: contain;
+        position: relative;
+        margin-bottom: 0;
+        &.cta--megan {
+            background: transparent url('/img/megan.png') center calc(30px * .5) no-repeat;
+            background-size: contain;
+            @media screen and (min-width: 1200px) {
+                background-position-x: calc(50% + 150px);
+            }
+        }
         @media screen and (min-width: 992px) {
             padding-block: calc(120px * .5);
+        }
+        @media screen and (min-width: 1200px) {
+            background-position-x: calc(50% + 150px);
+            .container {
+                > * {
+                    max-width: 50%;
+                    margin-left: 0;
+                    text-align: right;
+                }
+                .cta__item {
+                    text-align: right;
+                }
+            }
+        }
+        &::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background-color: rgba(white,.85);
+            @media screen and (min-width: 1200px) {
+                content: none;
+            }
         }
         .cta {
             &__title {
@@ -163,18 +198,9 @@
                 }
             }
             &__item {
-                @media screen and (min-width: 1200px) {
-                    text-align: center;
-                }
-                &:nth-child(2n+1):not(:last-child) {
-                    @media screen and (min-width: 1200px) {
-                       text-align: center;
-                    }
-                }
                 &:last-child {
                     @media screen and (min-width: 1200px) {
                         grid-column: inherit;
-                        text-align: center;
                     }
                 }
             }

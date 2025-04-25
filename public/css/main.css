@@ -965,6 +965,11 @@ a {
     margin-inline: auto;
   }
 }
+@media screen and (min-width: 1200px) {
+  .btn {
+    margin-right: 0;
+  }
+}
 
 .page-title {
   line-height: 1.15;
@@ -1261,6 +1266,9 @@ body::after {
   max-width: 1366px;
   font-size: 0.875rem;
 }
+body:has(.cta--oscar) .main-footer {
+  margin-top: 0;
+}
 @media screen and (min-width: 1024px) {
   .main-footer {
     grid-template-columns: repeat(3, 1fr);
@@ -1459,12 +1467,51 @@ body::after {
 }
 .cta--oscar {
   margin-top: -30px;
-  background-color: transparent;
   border: none;
+  background: transparent url("/img/oscar.png") center calc(30px * .5) no-repeat;
+  background-size: contain;
+  position: relative;
+  margin-bottom: 0;
+}
+.cta--oscar.cta--megan {
+  background: transparent url("/img/megan.png") center calc(30px * .5) no-repeat;
+  background-size: contain;
+}
+@media screen and (min-width: 1200px) {
+  .cta--oscar.cta--megan {
+    background-position-x: calc(50% + 150px);
+  }
 }
 @media screen and (min-width: 992px) {
   .cta--oscar {
     padding-block: calc(120px * .5);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .cta--oscar {
+    background-position-x: calc(50% + 150px);
+  }
+  .cta--oscar .container > * {
+    max-width: 50%;
+    margin-left: 0;
+    text-align: right;
+  }
+  .cta--oscar .container .cta__item {
+    text-align: right;
+  }
+}
+.cta--oscar::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+@media screen and (min-width: 1200px) {
+  .cta--oscar::before {
+    content: none;
   }
 }
 .cta--oscar .cta__title {
@@ -1476,19 +1523,8 @@ body::after {
   }
 }
 @media screen and (min-width: 1200px) {
-  .cta--oscar .cta__item {
-    text-align: center;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .cta--oscar .cta__item:nth-child(2n+1):not(:last-child) {
-    text-align: center;
-  }
-}
-@media screen and (min-width: 1200px) {
   .cta--oscar .cta__item:last-child {
     grid-column: inherit;
-    text-align: center;
   }
 }
 .cta--price {

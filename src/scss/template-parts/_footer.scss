@@ -12,6 +12,9 @@
     position: relative;
     max-width: 1366px;
     font-size: .875rem;
+    body:has(.cta--oscar) & {
+        margin-top: 0;
+    }
     @media screen and (min-width: 1024px) {
         grid-template-columns: repeat(3, 1fr);
         text-align: left;
