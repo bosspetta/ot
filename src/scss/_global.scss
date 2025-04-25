@@ -34,7 +34,9 @@ a {
         margin-inline: auto;
     }
     @media screen and (min-width: 1200px) {
-        margin-right: 0;
+        .cta--oscar & {
+            margin-right: 0;
+        }
     }
 }
 

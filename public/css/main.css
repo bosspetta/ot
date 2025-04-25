@@ -966,7 +966,7 @@ a {
   }
 }
 @media screen and (min-width: 1200px) {
-  .btn {
+  .cta--oscar .btn {
     margin-right: 0;
   }
 }
