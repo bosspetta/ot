@@ -1110,7 +1110,7 @@ body::after {
     padding-bottom: calc(45px * .5);
     padding-inline: calc(45px * .5);
     background: rgba(255, 255, 255, 0.92);
-    border: 1px solid var(--clr-primary-light);
+    border-bottom: 1px solid var(--clr-primary-light);
     border-top: none;
   }
   .page-header__data__call-to-action::before {
@@ -1527,6 +1527,19 @@ body:has(.cta--oscar) .main-footer {
     grid-column: inherit;
   }
 }
+.cta--oscar.cta--materials {
+  background: transparent url("/img/logo-ot-academy.svg") center center no-repeat;
+  background-size: auto 40%;
+}
+@media screen and (min-width: 1200px) {
+  .cta--oscar.cta--materials {
+    background-position-x: calc(50% + 300px);
+    background-size: 350px auto;
+  }
+}
+.cta--oscar.cta--materials::before {
+  background-color: rgba(255, 255, 255, 0.95);
+}
 .cta--price {
   margin-top: 0;
 }
@@ -1542,6 +1555,17 @@ body:has(.cta--oscar) .main-footer {
   .cta--eng-groups {
     margin-top: -30px;
     padding-block: calc(120px * .5);
+  }
+}
+.cta--eng-groups--materials {
+  margin-bottom: 0;
+  border: none;
+  border-top: 1px solid rgba(191, 191, 217, 0.5);
+  background-color: transparent;
+}
+@media screen and (min-width: 992px) {
+  .cta--eng-groups--materials {
+    border-top: none;
   }
 }
 

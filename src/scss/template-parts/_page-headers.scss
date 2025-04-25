@@ -31,7 +31,7 @@
                 padding-bottom: calc(45px * .5);
                 padding-inline: calc(45px * .5);
                 background: rgba(white, .92);
-                border: 1px solid var(--clr-primary-light);
+                border-bottom: 1px solid var(--clr-primary-light);
                 border-top: none;
                 &::before {
                     content: '';
