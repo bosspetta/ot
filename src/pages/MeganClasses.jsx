@@ -144,6 +144,48 @@ export default function MeganClasses() {
                     </div>
                 </div>
             </section>
+            <section className="cta cta--faqs cta--faqs--groups">
+                <div className="cta__wrapper">
+                    <h3 className="cta__title">Preguntas frecuentes</h3>
+                    <ul className="cta__list">
+                        <li className="cta__item">
+                            <strong>¿Las clases con Megan son solo para pronunciación?</strong>
+                            <span className="cta__text">No, las clases incluyen todos los aspectos del aprendizaje del inglés. Sin embargo, su estilo pone énfasis en fluidez, lectura y corrección precisa para mejorar tu expresión oral y auditiva.</span>
+                        </li>
+                        <li className="cta__item">
+                            <strong>¿Necesito un nivel específico para inscribirme?</strong>
+                            <span className="cta__text">No, el programa está estructurado para diferentes niveles.</span>
+                        </li>
+                        <li className="cta__item">
+                            <strong>¿Las clases están grabadas por si no puedo asistir?</strong>
+                            <span className="cta__text">Sí, tendrás acceso a las grabaciones para repasar cuando quieras.</span>
+                        </li>
+                        <li className="cta__item">
+                            <strong>¿Qué pasa si siento que necesito más correcciones o ayuda extra?</strong>
+                            <span className="cta__text">Megan te dará ejercicios personalizados para mejorar fuera de clase.</span>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section className="cta cta--oscar cta--megan">
+                <div className="cta__wrapper">
+                    <div className="container">
+                        <h3 className="cta__title">Sobre Megan</h3>
+                        <h4 className="cta__subtitle">«Siempre me ha encantado ayudar a las personas a mejorar su inglés, y mis alumnos saben que conmigo pueden practicar sin miedo a equivocarse. Juntos trabajamos en pronunciación, lectura y fluidez para que se sientan seguros en cada conversación.»</h4>
+                        <ul className="cta__list">
+                            <li className="cta__item">
+                                <strong>Lo que me distingue:</strong>
+                                <span className="cta__text">He desarrollado un método basado en repetición, lectura y dictado guiado.</span>
+                            </li>
+                            <li className="cta__item"><span className="cta__text">Mis clases son relajadas, pero estructuradas para que avances sin presión.</span></li>
+                            <li className="cta__item"><span className="cta__text">Te ayudo a perfeccionar detalles clave en pronunciación y fluidez sin descuidar otros aspectos del inglés.</span></li>
+                        </ul>
+                        <div className="cta__btn-wrapper">
+                            <a href="#" className="btn">Reserva tu lugar en las clases de Megan</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </section>
     )
 }

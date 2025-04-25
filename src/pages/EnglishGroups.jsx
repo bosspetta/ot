@@ -156,16 +156,18 @@ export default function EnglishGroups() {
             </section>
             <section className="cta cta--oscar">
                 <div className="cta__wrapper">
-                    <h3 className="cta__title">Sobre Oscar</h3>
-                    <h4 className="cta__subtitle">«Mi enfoque no es que memorices reglas, sino que hables con confianza en cualquier entorno profesional.»</h4>
-                    <ul className="cta__list">
-                        <li className="cta__item"><strong>Lo que me distingue:</strong>
-                        <span className="cta__text">He ayudado a ejecutivos y empresas a mejorar su inglés de negocios.</span></li>
-                        <li className="cta__item"><span className="cta__text">Mi método es práctico y basado en escenarios del mundo real.</span></li>
-                        <li className="cta__item"><span className="cta__text">Las clases están diseñadas para que te prepares para reuniones, presentaciones y negociaciones.</span></li>
-                    </ul>
-                    <div className="cta__btn-wrapper">
-                        <a href="#" className="btn">Hablemos sobre tu aprendizaje</a>
+                    <div className="container">
+                        <h3 className="cta__title">Sobre Oscar</h3>
+                        <h4 className="cta__subtitle">«Mi enfoque no es que memorices reglas, sino que hables con confianza en cualquier entorno profesional.»</h4>
+                        <ul className="cta__list">
+                            <li className="cta__item"><strong>Lo que me distingue:</strong>
+                            <span className="cta__text">He ayudado a ejecutivos y empresas a mejorar su inglés de negocios.</span></li>
+                            <li className="cta__item"><span className="cta__text">Mi método es práctico y basado en escenarios del mundo real.</span></li>
+                            <li className="cta__item"><span className="cta__text">Las clases están diseñadas para que te prepares para reuniones, presentaciones y negociaciones.</span></li>
+                        </ul>
+                        <div className="cta__btn-wrapper">
+                            <a href="#" className="btn">Hablemos sobre tu aprendizaje</a>
+                        </div>
                     </div>
                 </div>
             </section>

@@ -137,14 +137,16 @@ export default function OneToOne() {
             </section>
             <section className="cta cta--oscar">
                 <div className="cta__wrapper">
-                    <h3 className="cta__title">Sobre Oscar</h3>
-                    <h4 className="cta__subtitle">«Con más de 25 años enseñando inglés a profesionales y empresas, mi objetivo es que aprendas sin miedo y con confianza.»</h4>
-                    <ul className="cta__list">
-                        <li className="cta__item"><strong>Lo que me distingue:</strong>
-                        <span className="cta__text">Trabajo con profesionales que usan inglés en su día a día.</span></li>
-                        <li className="cta__item"><span className="cta__text">He creado métodos prácticos que te ayudan a hablar inglés rápido.</span></li>
-                        <li className="cta__item"><span className="cta__text">Mi meta es que ganes independencia y no dependas de clases para siempre.</span></li>
-                    </ul>
+                    <div className="container">
+                        <h3 className="cta__title">Sobre Oscar</h3>
+                        <h4 className="cta__subtitle">«Con más de 25 años enseñando inglés a profesionales y empresas, mi objetivo es que aprendas sin miedo y con confianza.»</h4>
+                        <ul className="cta__list">
+                            <li className="cta__item"><strong>Lo que me distingue:</strong>
+                            <span className="cta__text">Trabajo con profesionales que usan inglés en su día a día.</span></li>
+                            <li className="cta__item"><span className="cta__text">He creado métodos prácticos que te ayudan a hablar inglés rápido.</span></li>
+                            <li className="cta__item"><span className="cta__text">Mi meta es que ganes independencia y no dependas de clases para siempre.</span></li>
+                        </ul>
+                    </div>
                 </div>
             </section>
         </section>
