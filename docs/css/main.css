@@ -965,6 +965,11 @@ a {
     margin-inline: auto;
   }
 }
+@media screen and (min-width: 1200px) {
+  .cta--oscar .btn {
+    margin-right: 0;
+  }
+}
 
 .page-title {
   line-height: 1.15;
@@ -1105,7 +1110,7 @@ body::after {
     padding-bottom: calc(45px * .5);
     padding-inline: calc(45px * .5);
     background: rgba(255, 255, 255, 0.92);
-    border: 1px solid var(--clr-primary-light);
+    border-bottom: 1px solid var(--clr-primary-light);
     border-top: none;
   }
   .page-header__data__call-to-action::before {
@@ -1260,6 +1265,9 @@ body::after {
   position: relative;
   max-width: 1366px;
   font-size: 0.875rem;
+}
+body:has(.cta--oscar) .main-footer {
+  margin-top: 0;
 }
 @media screen and (min-width: 1024px) {
   .main-footer {
@@ -1459,12 +1467,51 @@ body::after {
 }
 .cta--oscar {
   margin-top: -30px;
-  background-color: transparent;
   border: none;
+  background: transparent url("/img/oscar.png") center calc(30px * .5) no-repeat;
+  background-size: contain;
+  position: relative;
+  margin-bottom: 0;
+}
+.cta--oscar.cta--megan {
+  background: transparent url("/img/megan.png") center calc(30px * .5) no-repeat;
+  background-size: contain;
+}
+@media screen and (min-width: 1200px) {
+  .cta--oscar.cta--megan {
+    background-position-x: calc(50% + 150px);
+  }
 }
 @media screen and (min-width: 992px) {
   .cta--oscar {
     padding-block: calc(120px * .5);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .cta--oscar {
+    background-position-x: calc(50% + 150px);
+  }
+  .cta--oscar .container > * {
+    max-width: 50%;
+    margin-left: 0;
+    text-align: right;
+  }
+  .cta--oscar .container .cta__item {
+    text-align: right;
+  }
+}
+.cta--oscar::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+@media screen and (min-width: 1200px) {
+  .cta--oscar::before {
+    content: none;
   }
 }
 .cta--oscar .cta__title {
@@ -1476,20 +1523,22 @@ body::after {
   }
 }
 @media screen and (min-width: 1200px) {
-  .cta--oscar .cta__item {
-    text-align: center;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .cta--oscar .cta__item:nth-child(2n+1):not(:last-child) {
-    text-align: center;
-  }
-}
-@media screen and (min-width: 1200px) {
   .cta--oscar .cta__item:last-child {
     grid-column: inherit;
-    text-align: center;
   }
+}
+.cta--oscar.cta--materials {
+  background: transparent url("/img/logo-ot-academy.svg") center center no-repeat;
+  background-size: auto 40%;
+}
+@media screen and (min-width: 1200px) {
+  .cta--oscar.cta--materials {
+    background-position-x: calc(50% + 300px);
+    background-size: 350px auto;
+  }
+}
+.cta--oscar.cta--materials::before {
+  background-color: rgba(255, 255, 255, 0.95);
 }
 .cta--price {
   margin-top: 0;
@@ -1506,6 +1555,17 @@ body::after {
   .cta--eng-groups {
     margin-top: -30px;
     padding-block: calc(120px * .5);
+  }
+}
+.cta--eng-groups--materials {
+  margin-bottom: 0;
+  border: none;
+  border-top: 1px solid rgba(191, 191, 217, 0.5);
+  background-color: transparent;
+}
+@media screen and (min-width: 992px) {
+  .cta--eng-groups--materials {
+    border-top: none;
   }
 }
 
