@@ -222,6 +222,23 @@
         @media screen and (min-width: 992px) {
             padding-block: calc(120px * .5);
         }
+        &--about {
+            margin-block: 0;
+            margin-top: 1rem;
+            border: none;
+            border-top: 1px solid rgba(191,191,217,.5);
+            background-color: transparent;
+            @media screen and (min-width: 992px) {
+                margin-top: -15px;
+                border-top: none;
+            }
+            @media screen and (min-width: 1200px) {
+                .cta__list:not(:last-child) .cta__item:last-child {
+                    grid-column: inherit;
+                    text-align: left;
+                }
+            }
+        }
     }
     &--eng-groups {
         border-top: none;
@@ -236,6 +253,110 @@
             background-color: transparent;
             @media screen and (min-width: 992px) {
                 border-top: none;
+            }
+        }
+    }
+    &--about {
+        margin-top: 0;
+        text-align: center;
+        background: rgba(191,191,217,.1) url('/img/megan-oscar-alpha.png') center bottom no-repeat;
+        position: relative;
+        @media screen and (min-width: 992px) {
+            padding-block: calc(120px * .5);
+        }
+        @media screen and (min-width: 1200px) {
+            background-image: none;
+            position: relative;
+            &::before {
+                content: '';
+                width: 100%;
+                height: 55px;
+                background-color: rgba(191, 191, 217, 0.25);
+                border-top: 1px solid rgba(191, 191, 217, 0.15);
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                z-index: 1;
+            }
+        }
+        &__data {
+            display: grid;
+            gap: 1.75rem;
+            &__title {
+                margin-bottom: 15px;
+                font-size: 1.1rem;
+            }
+            &__info {
+                margin-bottom: 7.5px;
+            }
+            &__info {
+                &--close {
+                    font-style: italic;
+                }
+            }
+            &__row {
+                > * {
+                    @media screen and (min-width: 1200px) {
+                        max-width: 50%;
+                        margin-inline: auto
+                    }
+                }
+                &:first-child > * {
+                    @media screen and (min-width: 1200px) {
+                        text-align: right;
+                    }
+                }
+                &:last-child > * {
+                    @media screen and (min-width: 1200px) {
+                        text-align: left;
+                    }
+                }
+            }
+        }
+        .container {
+            @media screen and (min-width: 1200px) {
+                position: relative;
+                &::before {
+                    content: '';
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                    top: 0;
+                    height: 100%;
+                    width: 300px;
+                    background: transparent url('/img/oscar.png') center bottom no-repeat;
+                    background-size: contain;
+                }
+                &::after {
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    top: 0;
+                    height: 100%;
+                    width: 300px;
+                    background: transparent url('/img/megan-left.png') center bottom no-repeat;
+                    background-size: contain;
+                }
+                > * {
+                    position: relative;
+                    z-index: 1;
+                }
+            }
+        }
+        &__footer {
+            margin-inline: calc(-30px * .5);
+            margin-bottom: calc(-30px * .5);
+            padding: calc(30px * .5);
+            background-color: rgba(191,191,217,.25);
+            border-top: 1px solid rgba(191,191,217,.15);
+            margin-top: 1rem;
+            @media screen and (min-width: 992px) {
+                margin-bottom: calc(-120px * .5);
+            }
+            @media screen and (min-width: 1200px) {
+                background-color: transparent;
+                border: none;
             }
         }
     }

@@ -981,6 +981,15 @@ a {
   }
 }
 
+.page-subtitle {
+  margin-bottom: 0.5rem;
+}
+
+.page-slogan {
+  font-size: 0.875rem;
+  font-style: italic;
+}
+
 .main-content {
   overflow-x: hidden;
 }
@@ -1136,6 +1145,21 @@ body::after {
 }
 .page-header--english-groups .page-header__data__img {
   background-image: url("/img/back-eng-groups-01.jpg");
+}
+.page-header--about .page-header__data__img {
+  min-height: 270px;
+}
+.page-header__excerpt {
+  max-width: 1366px;
+  margin-inline: auto;
+}
+.page-header__excerpt__paragraph {
+  font-family: "Playfair Display", serif;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.page-header__excerpt__paragraph:last-child {
+  margin: 0;
 }
 
 .main-menu {
@@ -1548,6 +1572,25 @@ body:has(.cta--oscar) .main-footer {
     padding-block: calc(120px * .5);
   }
 }
+.cta--price--about {
+  margin-block: 0;
+  margin-top: 1rem;
+  border: none;
+  border-top: 1px solid rgba(191, 191, 217, 0.5);
+  background-color: transparent;
+}
+@media screen and (min-width: 992px) {
+  .cta--price--about {
+    margin-top: -15px;
+    border-top: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .cta--price--about .cta__list:not(:last-child) .cta__item:last-child {
+    grid-column: inherit;
+    text-align: left;
+  }
+}
 .cta--eng-groups {
   border-top: none;
 }
@@ -1566,6 +1609,114 @@ body:has(.cta--oscar) .main-footer {
 @media screen and (min-width: 992px) {
   .cta--eng-groups--materials {
     border-top: none;
+  }
+}
+.cta--about {
+  margin-top: 0;
+  text-align: center;
+  background: rgba(191, 191, 217, 0.1) url("/img/megan-oscar-alpha.png") center bottom no-repeat;
+  position: relative;
+}
+@media screen and (min-width: 992px) {
+  .cta--about {
+    padding-block: calc(120px * .5);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .cta--about {
+    background-image: none;
+    position: relative;
+  }
+  .cta--about::before {
+    content: "";
+    width: 100%;
+    height: 55px;
+    background-color: rgba(191, 191, 217, 0.25);
+    border-top: 1px solid rgba(191, 191, 217, 0.15);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+  }
+}
+.cta--about__data {
+  display: grid;
+  gap: 1.75rem;
+}
+.cta--about__data__title {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+.cta--about__data__info {
+  margin-bottom: 7.5px;
+}
+.cta--about__data__info--close {
+  font-style: italic;
+}
+@media screen and (min-width: 1200px) {
+  .cta--about__data__row > * {
+    max-width: 50%;
+    margin-inline: auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .cta--about__data__row:first-child > * {
+    text-align: right;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .cta--about__data__row:last-child > * {
+    text-align: left;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .cta--about .container {
+    position: relative;
+  }
+  .cta--about .container::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    height: 100%;
+    width: 300px;
+    background: transparent url("/img/oscar.png") center bottom no-repeat;
+    background-size: contain;
+  }
+  .cta--about .container::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    height: 100%;
+    width: 300px;
+    background: transparent url("/img/megan-left.png") center bottom no-repeat;
+    background-size: contain;
+  }
+  .cta--about .container > * {
+    position: relative;
+    z-index: 1;
+  }
+}
+.cta--about__footer {
+  margin-inline: calc(-30px * .5);
+  margin-bottom: calc(-30px * .5);
+  padding: calc(30px * .5);
+  background-color: rgba(191, 191, 217, 0.25);
+  border-top: 1px solid rgba(191, 191, 217, 0.15);
+  margin-top: 1rem;
+}
+@media screen and (min-width: 992px) {
+  .cta--about__footer {
+    margin-bottom: calc(-120px * .5);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .cta--about__footer {
+    background-color: transparent;
+    border: none;
   }
 }
 

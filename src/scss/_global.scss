@@ -48,6 +48,15 @@ a {
     }
 }
 
+.page-subtitle {
+    margin-bottom: .5rem;
+}
+
+.page-slogan {
+    font-size: .875rem;
+    font-style: italic;
+}
+
 .main-content {
     overflow-x: hidden;
     @media screen and (min-width: 1200px) {

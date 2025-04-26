@@ -60,4 +60,21 @@
             background-image: url('/img/back-eng-groups-01.jpg');
         }
     }
+    &--about {
+        .page-header__data__img {
+            min-height: 270px;
+        }
+    }
+    &__excerpt {
+        max-width: 1366px;
+        margin-inline: auto;
+        &__paragraph {
+            font-family: "Playfair Display", serif;
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            &:last-child {
+                margin: 0;
+            }
+        }
+    }
 }

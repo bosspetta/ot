@@ -20,7 +20,9 @@
         "megan": "Nuestra comunidad"
     },
     "about": {
-        "title": "Sobre nosotros & Nuestro método"
+        "title": "Sobre nosotros & nuestro método",
+        "subtitle": "Quienes somos & nuestra filosofía",
+        "slogan": "Oscar Trejo Academy: enseñanza real, aprendizaje práctico, confianza duradera."
     },
     "academy": {
         "title": "Academia & Microlearning"
