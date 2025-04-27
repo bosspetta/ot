@@ -6,14 +6,14 @@ import Layout from './layout'
 import Home from './pages/Home'
 import About from './pages/About'
 import Academy from './pages/Academy'
-import Megan from './pages/Megan'
+import Materials from './pages/Materials'
 
 import OneToOne from './pages/OneToOne'
 import EnglishGroups from './pages/EnglishGroups'
 import MeganClasses from './pages/MeganClasses'
-import Materials from './pages/Materials'
 
 import NoMatch from './pages/NoMatch'
+import Comunidad from './pages/Comunidad'
 
 export default function App() {
     return (
@@ -24,7 +24,7 @@ export default function App() {
                         <Route index element={<Home />} />
                         <Route path='/about' element={<About />} />
                         <Route path='/academy' element={<Academy />} />
-                        <Route path='/megan' element={<Megan />} />
+                        <Route path='/community' element={<Comunidad />} />
 
                         <Route path='/one-to-one' element={<OneToOne />} />
                         <Route path='/groups' element={<EnglishGroups />} />

@@ -17,7 +17,7 @@
         "home": "Home",
         "about": "About us & Our method",
         "academy": "Academy & Microlearning",
-        "megan": "Our community"
+        "community": "Our community"
     },
     "about": {
         "title": "About us & Our method",
@@ -25,10 +25,12 @@
         "slogan": "Oscar Trejo Academy: real teaching, practical learning, lasting confidence."
     },
     "academy": {
-        "title": "Academy & Microlearning"
+        "title": "Academy & Microlearning: learn quickly and effectively",
+        "subtitle": "Practical, fast and applicable learning: explore our academy"
     },
-    "megan": {
-        "title": "Our community"
+    "comunidad": {
+        "title": "Our community: a space for learning, growth and trust",
+        "subtitle": "Aprender con confianza: más que un curso, una comunidad"
     },
     "one-to-one": {
         "title": "1 to 1 courses with Oscar",

@@ -63,4 +63,20 @@
             margin-inline: auto;
         }
     }
+    &--community {
+        background-color: rgba(191,191,217,.1);
+        border-top: 1px solid rgba(191,191,217,.15);
+        border-bottom: 1px solid rgba(191,191,217,.15);
+        margin-inline: calc(-30px * .5);
+        padding: calc(45px * .5);
+        .stories__grid__item__text {
+            @media screen and (min-width: 768px) {
+                flex-basis: 100%;
+                > p {
+                    max-width: 50ch;
+                    margin-inline: auto;
+                }
+            }
+        }
+    }
 }

@@ -61,6 +61,8 @@
     &__text {
         display: block;
         margin-bottom: 7.5px;
+        max-width: 85ch;
+        margin-inline: auto;
     }
     &__btn-wrapper {
         margin-bottom: 15px;
@@ -239,6 +241,14 @@
                 }
             }
         }
+        &--community {
+            .cta__item:nth-last-child(2):not(:last-child) {
+                @media screen and (min-width: 1200px) {
+                    grid-column: 1 / -1;
+                    text-align: center;
+                }
+            }
+        }
     }
     &--eng-groups {
         border-top: none;
@@ -358,6 +368,11 @@
                 background-color: transparent;
                 border: none;
             }
+        }
+    }
+    &--materials {
+        &--community {
+            margin-top: 0;
         }
     }
 }

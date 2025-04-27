@@ -45,9 +45,9 @@ export default function MainMenu() {
                 <li className="main-menu__item">
                     <NavLink
                         className={ ({isActive}) => isActive ? 'main-menu__link selected' : 'main-menu__link' }
-                        to='/megan'
+                        to='/community'
                         onClick={hideMenu}>
-                        {t( "main-menu.megan" )}
+                        {t( "main-menu.community" )}
                     </NavLink>
                 </li>
                 <li className="main-menu__item">
