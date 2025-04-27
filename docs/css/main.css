@@ -1157,9 +1157,34 @@ body::after {
   font-family: "Playfair Display", serif;
   font-size: 1rem;
   margin-bottom: 1rem;
+  margin-inline: auto;
+  max-width: 80ch;
 }
 .page-header__excerpt__paragraph:last-child {
   margin: 0;
+  margin-inline: auto;
+}
+.page-header--academy {
+  text-align: center;
+}
+.page-header--academy .page-header__excerpt__paragraph {
+  max-width: 55ch;
+}
+.page-header--academy .page-header__data__img {
+  background-image: url("/img/back-academy.jpg");
+  background-size: cover;
+}
+.page-header--academy--community .page-header__excerpt__paragraph {
+  max-width: 55ch;
+}
+.page-header--academy--community .page-header__data__img {
+  background-image: url("/img/back-community.jpg");
+  background-size: cover;
+}
+@media screen and (min-width: 992px) {
+  .page-header--academy--community .page-header__data__img {
+    min-height: 400px;
+  }
 }
 
 .main-menu {
@@ -1410,6 +1435,8 @@ body:has(.cta--oscar) .main-footer {
 .cta__text {
   display: block;
   margin-bottom: 7.5px;
+  max-width: 85ch;
+  margin-inline: auto;
 }
 .cta__btn-wrapper {
   margin-bottom: 15px;
@@ -1591,6 +1618,12 @@ body:has(.cta--oscar) .main-footer {
     text-align: left;
   }
 }
+@media screen and (min-width: 1200px) {
+  .cta--price--community .cta__item:nth-last-child(2):not(:last-child) {
+    grid-column: 1/-1;
+    text-align: center;
+  }
+}
 .cta--eng-groups {
   border-top: none;
 }
@@ -1719,6 +1752,9 @@ body:has(.cta--oscar) .main-footer {
     border: none;
   }
 }
+.cta--materials--community {
+  margin-top: 0;
+}
 
 @media screen and (min-width: 992px) {
   .stories {
@@ -1783,6 +1819,22 @@ body:has(.cta--oscar) .main-footer {
 @media screen and (min-width: 992px) {
   .stories__wrapper {
     max-width: 75%;
+    margin-inline: auto;
+  }
+}
+.stories--community {
+  background-color: rgba(191, 191, 217, 0.1);
+  border-top: 1px solid rgba(191, 191, 217, 0.15);
+  border-bottom: 1px solid rgba(191, 191, 217, 0.15);
+  margin-inline: calc(-30px * .5);
+  padding: calc(45px * .5);
+}
+@media screen and (min-width: 768px) {
+  .stories--community .stories__grid__item__text {
+    flex-basis: 100%;
+  }
+  .stories--community .stories__grid__item__text > p {
+    max-width: 50ch;
     margin-inline: auto;
   }
 }
