@@ -1,4 +1,40 @@
 {
+    "testimonials": "Testimonios",
+    "plans-pricing": "Planes y precios",
+    "investment": "Invierte en tu aprendizaje",
+    "investment-text-01": "Los precios varían según el número de sesiones y el nivel de personalización.",
+    "investment-text-02": "Desde $120 hasta $510 USD por mes, dependiendo del plan que elijas.",
+    "investment-btn": "Reserva tu sesión informativa",
+    "investment-call": "Y te ayudamos a elegir la mejor opción para ti.",
+    "course-detail": "Detalles del curso",
+    "course-detail-01": "Duración de cada sesión",
+    "course-detail-01-tag": "60 minutos",
+    "course-detail-02": "Formato",
+    "course-detail-02-tag": "En vivo, vía Google Meet o Whereby",
+    "course-detail-03": "Material de apoyo",
+    "course-detail-03-tag": "PDFs, ejercicios prácticos y grabaciones opcionales",
+    "course-detail-04": "Frecuencia recomendada",
+    "course-detail-04-tag": "1-2 veces por semana según tus objetivos",
+    "course-detail-btn": "Empieza tu proceso hoy",
+    "faqs": {
+        "title": "Preguntas frecuentes",
+        "01": "¿Puedo cambiar mi horario si lo necesito?",
+        "01-answer": "Sí, con al menos 24 horas de anticipación.",
+        "02": "¿Cuánto tiempo necesito para ver resultados?",
+        "02-answer": "Depende de tu constancia, pero muchos estudiantes notan mejoras en 3 meses.",
+        "03": "¿Qué pasa si no puedo continuar?",
+        "03-answer": "Puedes pausar y reanudar tus sesiones con flexibilidad.",
+        "04": "¿Cómo sé si este curso es para mí?",
+        "04-answer": "Por eso ofrecemos una sesión informativa gratuita para explicarte todo y asegurarnos de que encaje con tus metas."
+    },
+    "about-oscar": {
+        "title": "Sobre Oscar",
+        "slogan": "«Con más de 25 años enseñando inglés a profesionales y empresas, mi objetivo es que aprendas sin miedo y con confianza.»",
+        "subtitle": "Lo que me distingue:",
+        "01": "Trabajo con profesionales que usan inglés en su día a día.",
+        "02": "He creado métodos prácticos que te ayudan a hablar inglés rápido.",
+        "03": "Mi meta es que ganes independencia y no dependas de clases para siempre."
+    },
     "home": {
         "title": "Oscar Trejo Academy",
         "intro": "Aprender otro idioma no se trata sólo de aprender diferentes palabras para las mismas cosas, sino de aprender una forma diferente de pensar sobre las cosas."
@@ -34,7 +70,31 @@
     },
     "one-to-one": {
         "title": "Cursos 1 a 1 con Oscar",
-        "subtitle": "Mentoría Personalizada en Inglés"
+        "subtitle": "Mentoría Personalizada en Inglés",
+        "slogan": "Transforma tu inglés con sesiones uno a uno diseñadas para acelerar tu progreso y brindarte confianza al hablar inglés.",
+        "btn": "Reserva tu sesión informativa gratuita",
+        "benefits": {
+            "title": "Beneficios clave",
+            "01-title": "Tú eliges el enfoque",
+            "01": "Conversación, gramática, pronunciación o inglés para negocios.",
+            "02-title": "Corrección en tiempo real",
+            "02": "Feedback práctico y centrado en mejorar rápido.",
+            "03-title": "100% personalizado",
+            "03": "Cada sesión se ajusta a tus necesidades y ritmo.",
+            "04-title": "Flexibilidad total",
+            "04": "Escoge horarios que se adapten a tu agenda.",
+            "05-title": "Material exclusivo",
+            "05": "Recursos digitales para reforzar lo aprendido.",
+            "call": "Descubre cómo funciona"
+        },
+        "testimonials": {
+            "01": "«Pasé de sentirme inseguro en reuniones a hablar con confianza. La diferencia fue abismal.»",
+            "01-person": "— Daniel R., Project Manager",
+            "02": "«Oscar me enseñó exactamente lo que necesitaba para mi entrevista en inglés y conseguí el trabajo.»",
+            "02-person": "— María L., Ejecutiva de Ventas",
+            "03": "«Las sesiones son dinámicas y efectivas. Se nota la diferencia de aprender con un mentor real.»",
+            "03-person": "— Javier T., Ingeniero"
+        }
     },
     "english-groups": {
         "title": "Grupos de inglés de negocios",

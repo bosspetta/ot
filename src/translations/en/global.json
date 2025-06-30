@@ -1,17 +1,53 @@
 {
+    "testimonials": "Testimonials",
+    "plans-pricing": "Plans & pricing",
+    "investment": "An investment in your growth",
+    "investment-text-01": "Pricing varies depending on the number of sessions and customization.",
+    "investment-text-02": "From $120 to $510 USD per month, based on the plan you choose.",
+    "investment-btn": "Book your free discovery session",
+    "investment-call": "We'll help you choose the right option.",
+    "course-detail": "Course detail",
+    "course-detail-01": "Duration",
+    "course-detail-01-tag": "60-minute sessions",
+    "course-detail-02": "Format",
+    "course-detail-02-tag": "Live via Google Meet / Whereby",
+    "course-detail-03": "Support materials",
+    "course-detail-03-tag": "PDFs, practical exercises, and optional recordings",
+    "course-detail-04": "Recommended frequency",
+    "course-detail-04-tag": "1-2 times per week depending on your goals",
+    "course-detail-btn": "Start your journey today",
+    "faqs": {
+        "title": "Frequently Asked Questions (FAQ)",
+        "01": "Can I reschedule my session?",
+        "01-answer": "Yes, just let us know at least 24 hours in advance.",
+        "02": "How long until I see results?",
+        "02-answer": "That depends on your consistency, but many students see progress within 3 months.",
+        "03": "What if I can't continue for a while?",
+        "03-answer": "You can pause and resume your sessions whenever needed.",
+        "04": "How do I know if this is right for me?",
+        "04-answer": "That's exactly why we offer a free discovery session—to walk you through the process and make sure it's the right fit."
+    },
+    "about-oscar": {
+        "title": "About Oscar",
+        "slogan": "«With over 25 years of experience teaching English to professionals and companies, my goal is to help you learn without fear and with full confidence.»",
+        "subtitle": "What sets me apart",
+        "01": "I work with professionals who use English daily.",
+        "02": "I've developed practical methods that get you speaking fast.",
+        "03": "My goal is for you to become independent—not dependent on classes."
+    },
     "home": {
         "title": "Oscar Trejo Academy",
-        "intro": "Aprender otro idioma no se trata sólo de aprender diferentes palabras para las mismas cosas, sino de aprender una forma diferente de pensar sobre las cosas."
+        "intro": "Learning another language is not just about learning different words for the same things, but about learning a different way of thinking about things."
     },
     "header": {
         "subtitle": "English with Confidence and Strategy",
         "open-menu": "Open navigation menu"
     },
     "intro-links": {
-        "one-to-one": "1 a 1 con Oscar Mentoría personalizada para objetivos específicos",
-        "groups": "Grupos de Inglés de Negocios Gramática, estructura y conversación en un entorno colaborativo",
-        "megan-classes": "Clases con Megan Pronunciación, dicción y fluidez auditiva",
-        "materials": "Material Descargable Guías y ejercicios prácticos listos para ti"
+        "one-to-one": "1 to 1 with Oscar Personalised mentoring for specific objectives",
+        "groups": "Business English Groups Grammar, structure and conversation in a collaborative setting",
+        "megan-classes": "Lessons with Megan Pronunciation, diction and listening fluency",
+        "materials": "Downloadable Material Guides and practical exercises ready for you"
     },
     "main-menu": {
         "home": "Home",
@@ -34,7 +70,31 @@
     },
     "one-to-one": {
         "title": "1 to 1 courses with Oscar",
-        "subtitle": "Personalised English Mentoring"
+        "subtitle": "Personalized English Mentorship with Oscar",
+        "slogan": "Take your English to the next level with private sessions designed to accelerate your progress and boost your confidence.",
+        "btn": "Book your free discovery session",
+        "benefits": {
+            "title": "Key benefits",
+            "01-title": "You choose the focus",
+            "01": "Conversation, grammar, pronunciation, or business English.",
+            "02-title": "Real-time correction",
+            "02": "Practical feedback to help you improve fast.",
+            "03-title": "Fully personalized",
+            "03": "Each session is tailored to your needs and pace.",
+            "04-title": "Full flexibility",
+            "04": "Choose time slots that work with your schedule.",
+            "05-title": "Exclusive material",
+            "05": "Digital resources to reinforce what you've learned.",
+            "call": "See how it works"
+        },
+        "testimonials": {
+            "01": "«I went from feeling insecure in meetings to speaking with confidence. The change was huge.»",
+            "01-person": "— Daniel R., Project Manager",
+            "02": "«Oscar taught me exactly what I needed for my job interview in English—and I got the job.»",
+            "02-person": "— María L., Sales Executive",
+            "03": "«The sessions are dynamic and effective. You can really tell the difference when you learn with a real mentor.»",
+            "03-person": "— Javier T., Engineer"
+        }
     },
     "english-groups": {
         "title": "Business English groups",

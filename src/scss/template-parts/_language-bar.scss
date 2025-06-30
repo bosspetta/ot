@@ -1,0 +1,26 @@
+.language {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--clr-primary);
+    width: 100%;
+    z-index: 1;
+    &__container {
+        display: flex;
+        justify-content: flex-end;
+        margin-inline: auto;
+        max-width: 1366px;
+    }
+    &__btn {
+        border-radius: 0;
+        border: none;
+        background-color: transparent;
+        color: white;
+        padding: calc(15px * .5) calc(30px * .5);
+        &.selected {
+            background-color: var(--clr-primary-light);
+            color: black;
+            font-weight: 600;
+        }
+    }
+}

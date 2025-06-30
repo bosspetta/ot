@@ -18,35 +18,35 @@ export default function OneToOne() {
                         <img src={oscar} alt="" />
                     </div>
                     <div className="page-header__data__call-to-action">
-                        <h3 className="page-header__title">Transforma tu inglés con sesiones uno a uno diseñadas para acelerar tu progreso y brindarte confianza al hablar inglés.</h3>
-                        <a href="#" className="page-header__link btn">Reserva tu sesión informativa gratuita</a>
+                        <h3 className="page-header__title">{t("one-to-one.slogan")}</h3>
+                        <a href="#" className="page-header__link btn">{t("one-to-one.btn")}</a>
                     </div>
                 </div>
             </header>
             <section className="cta cta--one-to-one">
                 <div className="cta__wrapper">
-                    <h3 className="cta__title">Beneficios clave</h3>
+                    <h3 className="cta__title">{t("one-to-one.benefits.title")}</h3>
                     <ul className="cta__list">
-                        <li className="cta__item"><strong>Tú eliges el enfoque</strong>
-                        <span className="cta__text">Conversación, gramática, pronunciación o inglés para negocios.</span></li>
-                        <li className="cta__item"><strong>Corrección en tiempo real</strong>
-                        <span className="cta__text">Feedback práctico y centrado en mejorar rápido.</span></li>
-                        <li className="cta__item"><strong>100% personalizado</strong>
-                        <span className="cta__text">Cada sesión se ajusta a tus necesidades y ritmo.</span></li>
-                        <li className="cta__item"><strong>Flexibilidad total</strong>
-                        <span className="cta__text">Escoge horarios que se adapten a tu agenda.</span></li>
-                        <li className="cta__item"><strong>Material exclusivo</strong>
-                        <span className="cta__text">Recursos digitales para reforzar lo aprendido.</span></li>
+                        <li className="cta__item"><strong>{t("one-to-one.benefits.01-title")}</strong>
+                        <span className="cta__text">{t("one-to-one.benefits.01")}</span></li>
+                        <li className="cta__item"><strong>{t("one-to-one.benefits.02-title")}</strong>
+                        <span className="cta__text">{t("one-to-one.benefits.02")}</span></li>
+                        <li className="cta__item"><strong>{t("one-to-one.benefits.03-title")}</strong>
+                        <span className="cta__text">{t("one-to-one.benefits.03")}</span></li>
+                        <li className="cta__item"><strong>{t("one-to-one.benefits.04-title")}</strong>
+                        <span className="cta__text">{t("one-to-one.benefits.04")}</span></li>
+                        <li className="cta__item"><strong>{t("one-to-one.benefits.05-title")}</strong>
+                        <span className="cta__text">{t("one-to-one.benefits.05")}</span></li>
                     </ul>
                     <div className="cta__btn-wrapper">
-                        <a href="#" className="btn">Descubre cómo funciona</a>
+                        <a href="#" className="btn">{t("one-to-one.benefits.call")}</a>
                     </div>
                 </div>
             </section>
             <section className="stories">
                 <div className="container">
                     <div className="stories__wrapper">
-                        <h3 className="stories__title">Testimonios</h3>
+                        <h3 className="stories__title">{t("testimonials")}</h3>
                         <div className="stories__storie">
                             <div className="stories__grid">
                                 <div className="stories__grid__item">
@@ -54,7 +54,7 @@ export default function OneToOne() {
                                         <img src="/img/temp/stories-01.jpg" alt="" />
                                     </div>
                                     <div className="stories__grid__item__text">
-                                        <p><span className="stories__grid__item__text__phrase">«Pasé de sentirme inseguro en reuniones a hablar con confianza. La diferencia fue abismal.»</span> <span className="stories__grid__item__text__author">— Daniel R., Project Manager</span></p>
+                                        <p><span className="stories__grid__item__text__phrase">{t("one-to-one.testimonials.01")}</span> <span className="stories__grid__item__text__author">{t("one-to-one.testimonials.01-person")}</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -66,7 +66,7 @@ export default function OneToOne() {
                                         <img src="/img/temp/stories-02.jpg" alt="" />
                                     </div>
                                     <div className="stories__grid__item__text">
-                                        <p><span className="stories__grid__item__text__phrase">«Oscar me enseñó exactamente lo que necesitaba para mi entrevista en inglés y conseguí el trabajo.»</span> <span className="stories__grid__item__text__author">— María L., Ejecutiva de Ventas</span></p>
+                                        <p><span className="stories__grid__item__text__phrase">{t("one-to-one.testimonials.02")}</span> <span className="stories__grid__item__text__author">{t("one-to-one.testimonials.02-person")}</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -78,7 +78,7 @@ export default function OneToOne() {
                                         <img src="/img/temp/stories-03.jpg" alt="" />
                                     </div>
                                     <div className="stories__grid__item__text">
-                                        <p><span className="stories__grid__item__text__phrase">«Las sesiones son dinámicas y efectivas. Se nota la diferencia de aprender con un mentor real.»</span> <span className="stories__grid__item__text__author">— Javier T., Ingeniero</span></p>
+                                        <p><span className="stories__grid__item__text__phrase">{t("one-to-one.testimonials.03")}</span> <span className="stories__grid__item__text__author">{t("one-to-one.testimonials.03-person")}</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -88,63 +88,65 @@ export default function OneToOne() {
             </section>
             <section className="cta cta--price">
                 <div className="cta__wrapper">
-                    <h3 className="cta__title">Planes y precios</h3>
+                    <h3 className="cta__title">{t("plans-pricing")}</h3>
                     <ul className="cta__list">
-                        <li className="cta__item"><strong>Invierte en tu aprendizaje</strong>
-                        <span className="cta__text">Los precios varían según el número de sesiones y el nivel de personalización.</span>
-                        <span className="cta__text">Desde $120 hasta $510 USD por mes, dependiendo del plan que elijas.</span></li>
+                        <li className="cta__item">
+                            <strong>{t("investment")}</strong>
+                            <span className="cta__text">{t("investment-text-01")}</span>
+                            <span className="cta__text">{t("investment-text-02")}</span>
+                        </li>
                     </ul>
                     <div className="cta__btn-wrapper">
-                        <a href="#" className="btn">Reserva tu sesión informativa</a>
+                        <a href="#" className="btn">{t("investment-btn")}</a>
                     </div>
                     <ul className="cta__list">
-                        <li className="cta__item"><span className="cta__text">Y te ayudamos a elegir la mejor opción para ti.</span></li>
+                        <li className="cta__item"><span className="cta__text">{t("investment-call")}</span></li>
                     </ul>
                 </div>
             </section>
             <section className="cta cta--curso cta--curso--one-to-one">
                 <div className="cta__wrapper">
-                    <h3 className="cta__title">Detalles del curso</h3>
+                    <h3 className="cta__title">{t("course-detail")}</h3>
                     <ul className="cta__list">
-                        <li className="cta__item"><strong>Duración de cada sesión</strong>
-                        <span className="cta__text">60 minutos</span></li>
-                        <li className="cta__item"><strong>Formato</strong>
-                        <span className="cta__text">En vivo, vía Google Meet o Whereby</span></li>
-                        <li className="cta__item"><strong>Material de apoyo</strong>
-                        <span className="cta__text">PDFs, ejercicios prácticos y grabaciones opcionales</span></li>
-                        <li className="cta__item"><strong>Frecuencia recomendada</strong>
-                        <span className="cta__text">1-2 veces por semana según tus objetivos</span></li>
+                        <li className="cta__item"><strong>{t("course-detail-01")}</strong>
+                        <span className="cta__text">{t("course-detail-01-tag")}</span></li>
+                        <li className="cta__item"><strong>{t("course-detail-02")}</strong>
+                        <span className="cta__text">{t("course-detail-02-tag")}</span></li>
+                        <li className="cta__item"><strong>{t("course-detail-03")}</strong>
+                        <span className="cta__text">{t("course-detail-03-tag")}</span></li>
+                        <li className="cta__item"><strong>{t("course-detail-04")}</strong>
+                        <span className="cta__text">{t("course-detail-04-tag")}</span></li>
                     </ul>
                     <div className="cta__btn-wrapper">
-                        <a href="#" className="btn">Empieza tu proceso hoy</a>
+                        <a href="#" className="btn">{t("course-detail-btn")}</a>
                     </div>
                 </div>
             </section>
             <section className="cta cta--faqs cta--faqs--one-to-one">
                 <div className="cta__wrapper">
-                    <h3 className="cta__title">Preguntas frecuentes</h3>
+                    <h3 className="cta__title">{t("faqs.title")}</h3>
                     <ul className="cta__list">
-                        <li className="cta__item"><strong>¿Puedo cambiar mi horario si lo necesito?</strong>
-                        <span className="cta__text">Sí, con al menos 24 horas de anticipación.</span></li>
-                        <li className="cta__item"><strong>¿Cuánto tiempo necesito para ver resultados?</strong>
-                        <span className="cta__text">Depende de tu constancia, pero muchos estudiantes notan mejoras en 3 meses.</span></li>
-                        <li className="cta__item"><strong>¿Qué pasa si no puedo continuar?</strong>
-                        <span className="cta__text">Puedes pausar y reanudar tus sesiones con flexibilidad.</span></li>
-                        <li className="cta__item"><strong>¿Cómo sé si este curso es para mí?</strong>
-                        <span className="cta__text">Por eso ofrecemos una sesión informativa gratuita para explicarte todo y asegurarnos de que encaje con tus metas.</span></li>
+                        <li className="cta__item"><strong>{t("faqs.01")}</strong>
+                        <span className="cta__text">{t("faqs.01-answer")}</span></li>
+                        <li className="cta__item"><strong>{t("faqs.02")}</strong>
+                        <span className="cta__text">{t("faqs.02-answer")}</span></li>
+                        <li className="cta__item"><strong>{t("faqs.03")}</strong>
+                        <span className="cta__text">{t("faqs.03-answer")}</span></li>
+                        <li className="cta__item"><strong>{t("faqs.04")}</strong>
+                        <span className="cta__text">{t("faqs.04-answer")}</span></li>
                     </ul>
                 </div>
             </section>
             <section className="cta cta--oscar">
                 <div className="cta__wrapper">
                     <div className="container">
-                        <h3 className="cta__title">Sobre Oscar</h3>
-                        <h4 className="cta__subtitle">«Con más de 25 años enseñando inglés a profesionales y empresas, mi objetivo es que aprendas sin miedo y con confianza.»</h4>
+                        <h3 className="cta__title">{t("about-oscar.title")}</h3>
+                        <h4 className="cta__subtitle">{t("about-oscar.slogan")}</h4>
                         <ul className="cta__list">
-                            <li className="cta__item"><strong>Lo que me distingue:</strong>
-                            <span className="cta__text">Trabajo con profesionales que usan inglés en su día a día.</span></li>
-                            <li className="cta__item"><span className="cta__text">He creado métodos prácticos que te ayudan a hablar inglés rápido.</span></li>
-                            <li className="cta__item"><span className="cta__text">Mi meta es que ganes independencia y no dependas de clases para siempre.</span></li>
+                            <li className="cta__item"><strong>{t("about-oscar.subtitle")}</strong>
+                            <span className="cta__text">{t("about-oscar.01")}</span></li>
+                            <li className="cta__item"><span className="cta__text">{t("about-oscar.02")}</span></li>
+                            <li className="cta__item"><span className="cta__text">{t("about-oscar.03")}</span></li>
                         </ul>
                     </div>
                 </div>

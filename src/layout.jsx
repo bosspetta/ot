@@ -6,7 +6,7 @@ import Footer from './components/Footer'
 
 export default function Layout() {
     return (
-        <main className="main-wrapper">
+        <main className="main-wrapper global-container">
             <div className="main-content">
                 <Header />
                 <MainMenu />
