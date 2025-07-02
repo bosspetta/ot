@@ -58,9 +58,6 @@ export default function MeganClasses() {
                         <div className="stories__storie">
                             <div className="stories__grid">
                                 <div className="stories__grid__item">
-                                    <div className="stories__grid__item__img">
-                                        <img src="/img/temp/stories-07.jpg" alt="" />
-                                    </div>
                                     <div className="stories__grid__item__text">
                                         <p><span className="stories__grid__item__text__phrase">«Estoy súper contenta con Megan, muy profesional aun para su corta edad.»</span> <span className="stories__grid__item__text__author">— Ana R.</span></p>
                                     </div>
@@ -70,9 +67,6 @@ export default function MeganClasses() {
                         <div className="stories__storie">
                             <div className="stories__grid">
                                 <div className="stories__grid__item">
-                                    <div className="stories__grid__item__img">
-                                        <img src="/img/temp/stories-08.jpg" alt="" />
-                                    </div>
                                     <div className="stories__grid__item__text">
                                         <p><span className="stories__grid__item__text__phrase">«Megan me enseñó a leer estas palabras complicadas. Me dijo: Primero que nada, sé paciente y divídela en sílabas.»</span> <span className="stories__grid__item__text__author">— Eduardo G.</span></p>
                                     </div>
@@ -82,9 +76,6 @@ export default function MeganClasses() {
                         <div className="stories__storie">
                             <div className="stories__grid">
                                 <div className="stories__grid__item">
-                                    <div className="stories__grid__item__img">
-                                        <img src="/img/temp/stories-09.jpg" alt="" />
-                                    </div>
                                     <div className="stories__grid__item__text">
                                         <p><span className="stories__grid__item__text__phrase">«Estoy contento con Megan, me ha ayudado muchísimo a avanzar y no me siento juzgado.»</span> <span className="stories__grid__item__text__author">— Mario T.</span></p>
                                     </div>

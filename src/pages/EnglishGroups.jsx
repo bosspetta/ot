@@ -18,43 +18,41 @@ export default function EnglishGroups() {
                         <img src={oscar} alt="" />
                     </div>
                     <div className="page-header__data__call-to-action">
-                        <h3 className="page-header__title">Aprende en un entorno dinámico con otros profesionales, mejora tu fluidez y gana confianza en situaciones reales de trabajo.</h3>
-                        <a href="#" className="page-header__link btn">Haz tu prueba de nivel</a>
+                        <h3 className="page-header__title">{t("english-groups.slogan")}</h3>
+                        <a href="#" className="page-header__link btn">{t("english-groups.btn")}</a>
                     </div>
                 </div>
             </header>
             <section className="cta cta--eng-groups">
                 <div className="cta__wrapper">
-                    <h3 className="cta__title">Beneficios clave</h3>
+                    <h3 className="cta__title">{t("one-to-one.benefits.title")}</h3>
                     <ul className="cta__list">
-                        <li className="cta__item"><strong>Grupos reducidos</strong>
-                        <span className="cta__text">(2-6 pp) Atención personalizada y más oportunidades de hablar.</span></li>
-                        <li className="cta__item"><strong>Simulación de escenarios reales</strong>
-                        <span className="cta__text">Reuniones, presentaciones y negociaciones.</span></li>
-                        <li className="cta__item"><strong>Feedback en vivo</strong>
-                        <span className="cta__text">Corrige errores al instante y mejora rápido.</span></li>
-                        <li className="cta__item"><strong>Estructura clara y progresiva</strong>
-                        <span className="cta__text">Clases adaptadas a tu nivel.</span></li>
-                        <li className="cta__item"><strong>Networking profesional</strong>
-                        <span className="cta__text">Conéctate con otros profesionales y practica con propósito.</span></li>
+                        <li className="cta__item"><strong>{t("english-groups.beneficios.01")}</strong>
+                        <span className="cta__text">{t("english-groups.beneficios.01-key")}</span></li>
+                        <li className="cta__item"><strong>{t("english-groups.beneficios.02")}</strong>
+                        <span className="cta__text">{t("english-groups.beneficios.02-key")}</span></li>
+                        <li className="cta__item"><strong>{t("english-groups.beneficios.03")}</strong>
+                        <span className="cta__text">{t("english-groups.beneficios.03-key")}</span></li>
+                        <li className="cta__item"><strong>{t("english-groups.beneficios.04")}</strong>
+                        <span className="cta__text">{t("english-groups.beneficios.04-key")}</span></li>
+                        <li className="cta__item"><strong>{t("english-groups.beneficios.05")}</strong>
+                        <span className="cta__text">{t("english-groups.beneficios.05-key")}</span></li>
                     </ul>
                     <div className="cta__btn-wrapper">
-                        <a href="#" className="btn">Realiza tu examen de nivel</a>
+                        <a href="#" className="btn">{t("english-groups.beneficios.btn")}</a>
                     </div>
                 </div>
             </section>
             <section className="stories">
                 <div className="container">
                     <div className="stories__wrapper">
-                        <h3 className="stories__title">Testimonios</h3>
+                        <h3 className="stories__title">{t("testimonials")}</h3>
+
                         <div className="stories__storie">
                             <div className="stories__grid">
                                 <div className="stories__grid__item">
-                                    <div className="stories__grid__item__img">
-                                        <img src="/img/temp/stories-04.jpg" alt="" />
-                                    </div>
                                     <div className="stories__grid__item__text">
-                                        <p><span className="stories__grid__item__text__phrase">«Gracias a estas clases ya no me siento inseguro cuando tengo reuniones con clientes en inglés.»</span> <span className="stories__grid__item__text__author">— Luis G., Gerente de Ventas</span></p>
+                                        <p><span className="stories__grid__item__text__phrase">{t("english-groups.testimonials.01")}</span> <span className="stories__grid__item__text__author">{t("english-groups.testimonials.01-auth")}</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -62,11 +60,8 @@ export default function EnglishGroups() {
                         <div className="stories__storie">
                             <div className="stories__grid">
                                 <div className="stories__grid__item">
-                                    <div className="stories__grid__item__img">
-                                        <img src="/img/temp/stories-05.jpg" alt="" />
-                                    </div>
                                     <div className="stories__grid__item__text">
-                                        <p><span className="stories__grid__item__text__phrase">«Practicar en grupo me ayudó a mejorar mi inglés más rápido de lo que imaginé.»</span> <span className="stories__grid__item__text__author">— Ana P., Ejecutiva de Finanzas</span></p>
+                                        <p><span className="stories__grid__item__text__phrase">{t("english-groups.testimonials.02")}</span> <span className="stories__grid__item__text__author">{t("english-groups.testimonials.02-auth")}</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -74,82 +69,80 @@ export default function EnglishGroups() {
                         <div className="stories__storie">
                             <div className="stories__grid">
                                 <div className="stories__grid__item">
-                                    <div className="stories__grid__item__img">
-                                        <img src="/img/temp/stories-06.jpg" alt="" />
-                                    </div>
                                     <div className="stories__grid__item__text">
-                                        <p><span className="stories__grid__item__text__phrase">«Las simulaciones de presentaciones me dieron la confianza que necesitaba para hablar en inglés en mi empresa.»</span> <span className="stories__grid__item__text__author">— Ricardo T., Consultor</span></p>
+                                        <p><span className="stories__grid__item__text__phrase">{t("english-groups.testimonials.03")}</span> <span className="stories__grid__item__text__author">{t("english-groups.testimonials.03-auth")}</span></p>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </section>
             <section className="cta cta--price">
                 <div className="cta__wrapper">
-                    <h3 className="cta__title">Planes y precios</h3>
+                    <h3 className="cta__title">{t("plans-pricing")}</h3>
                     <ul className="cta__list">
-                        <li className="cta__item"><strong>Inversión en tu crecimiento profesional</strong>
-                            <span className="cta__text">Los precios varían según el número de sesiones y el nivel de personalización.</span>
-                            <span className="cta__text"><strong>Desde $100 hasta $155 dólares por mes, según el grupo y nivel seleccionado.</strong></span>
-                            <span className="cta__text">Haz tu examen de nivel y te recomendaremos la mejor opción para ti.</span>
+                        <li className="cta__item"><strong>{t("english-groups.plans-pricing.01")}</strong>
+                            <span className="cta__text">{t("english-groups.plans-pricing.01-plan")}</span>
+                            <span className="cta__text"><strong>{t("english-groups.plans-pricing.02")}</strong></span>
+                            <span className="cta__text">{t("english-groups.plans-pricing.02-plan")}</span>
                         </li>
                     </ul>
                     <div className="cta__btn-wrapper">
-                        <a href="#" className="btn">Realiza tu examen de nivel</a>
+                        <a href="#" className="btn">{t("english-groups.btn")}</a>
                     </div>
                 </div>
             </section>
             <section className="cta cta--curso cta--curso--eng-groups">
                 <div className="cta__wrapper">
-                    <h3 className="cta__title">Detalles del curso</h3>
+                    <h3 className="cta__title">{t("course-detail")}</h3>
                     <ul className="cta__list">
                         <li className="cta__item">
-                            <strong>Formato</strong>
-                            <span className="cta__text">Clases en vivo vía Google Meet / Whereby.</span>
+                            <strong>{t("course-detail-05")}</strong>
+                            <span className="cta__text">{t("course-detail-05-tag")}</span>
                         </li>
                         <li className="cta__item">
-                            <strong>Duración de cada sesión</strong>
-                            <span className="cta__text">60-90 minutos.</span>
+                            <strong>{t("course-detail-06")}</strong>
+                            <span className="cta__text">{t("course-detail-06-tag")}</span>
                         </li>
                         <li className="cta__item">
-                            <strong>Frecuencia recomendada</strong>
-                            <span className="cta__text">2-3 veces por semana.</span>
+                            <strong>{t("course-detail-07")}</strong>
+                            <span className="cta__text">{t("course-detail-07-tag")}</span>
                         </li>
                         <li className="cta__item">
-                            <strong>Material de apoyo</strong>
-                            <span className="cta__text">PDFs, ejercicios y acceso a grabaciones.</span>
+                            <strong>{t("course-detail-08")}</strong>
+                            <span className="cta__text">{t("course-detail-08-tag")}</span>
                         </li>
                         <li className="cta__item">
-                            <strong>Examen de nivel</strong>
-                            <span className="cta__text">Para asegurarte de estar en el grupo adecuado.</span>
+                            <strong>{t("course-detail-09")}</strong>
+                            <span className="cta__text">{t("course-detail-09-tag")}</span>
                         </li>
                     </ul>
                     <div className="cta__btn-wrapper">
-                        <a href="#" className="btn">Empieza tu proceso hoy</a>
+                        <a href="#" className="btn">{t("course-detail-btn")}</a>
                     </div>
                 </div>
             </section>
             <section className="cta cta--faqs cta--faqs--groups">
                 <div className="cta__wrapper">
-                    <h3 className="cta__title">Preguntas frecuentes</h3>
+                    <h3 className="cta__title">{t("faqs.title")}</h3>
                     <ul className="cta__list">
                         <li className="cta__item">
-                            <strong>¿Cuál es la diferencia entre estas clases y un curso tradicional de inglés?</strong>
-                            <span className="cta__text">Aquí no memorizamos teoría, practicamos en escenarios reales de negocios.</span>
+                            <strong>{t("faqs.05")}</strong>
+                            <span className="cta__text">{t("faqs.05-answer")}</span>
                         </li>
                         <li className="cta__item">
-                            <strong>¿Necesito un nivel avanzado para unirme?</strong>
-                            <span className="cta__text">No. Hacemos un examen de nivel para ubicarte en el grupo adecuado.</span>
+                            <strong>{t("faqs.06")}</strong>
+                            <span className="cta__text">{t("faqs.06-answer")}</span>
                         </li>
                         <li className="cta__item">
-                            <strong>¿Las clases están grabadas por si no puedo asistir?</strong>
-                            <span className="cta__text">Sí, tendrás acceso a las grabaciones para repasar cuando quieras.</span>
+                            <strong>{t("faqs.07")}</strong>
+                            <span className="cta__text">{t("faqs.07-answer")}</span>
                         </li>
                         <li className="cta__item">
-                            <strong>¿Qué pasa si necesito cambiar de grupo?</strong>
-                            <span className="cta__text">Podemos reubicarte si tu nivel o necesidades cambian.</span>
+                            <strong>{t("faqs.08")}</strong>
+                            <span className="cta__text">{t("faqs.08-answer")}</span>
                         </li>
                     </ul>
                 </div>
@@ -157,16 +150,16 @@ export default function EnglishGroups() {
             <section className="cta cta--oscar">
                 <div className="cta__wrapper">
                     <div className="container">
-                        <h3 className="cta__title">Sobre Oscar</h3>
-                        <h4 className="cta__subtitle">«Mi enfoque no es que memorices reglas, sino que hables con confianza en cualquier entorno profesional.»</h4>
+                        <h3 className="cta__title">{t("about-oscar.title")}</h3>
+                        <h4 className="cta__subtitle">{t("about-oscar.slogan")}</h4>
                         <ul className="cta__list">
-                            <li className="cta__item"><strong>Lo que me distingue:</strong>
-                            <span className="cta__text">He ayudado a ejecutivos y empresas a mejorar su inglés de negocios.</span></li>
-                            <li className="cta__item"><span className="cta__text">Mi método es práctico y basado en escenarios del mundo real.</span></li>
-                            <li className="cta__item"><span className="cta__text">Las clases están diseñadas para que te prepares para reuniones, presentaciones y negociaciones.</span></li>
+                            <li className="cta__item"><strong>{t("about-oscar.subtitle")}</strong>
+                            <span className="cta__text">{t("about-oscar.01")}</span></li>
+                            <li className="cta__item"><span className="cta__text">{t("about-oscar.02")}</span></li>
+                            <li className="cta__item"><span className="cta__text">{t("about-oscar.03")}</span></li>
                         </ul>
                         <div className="cta__btn-wrapper">
-                            <a href="#" className="btn">Hablemos sobre tu aprendizaje</a>
+                            <a href="#" className="btn">{t("about-oscar.btn")}</a>
                         </div>
                     </div>
                 </div>

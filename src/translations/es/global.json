@@ -15,6 +15,16 @@
     "course-detail-03-tag": "PDFs, ejercicios prácticos y grabaciones opcionales",
     "course-detail-04": "Frecuencia recomendada",
     "course-detail-04-tag": "1-2 veces por semana según tus objetivos",
+    "course-detail-05": "Formato",
+    "course-detail-05-tag": "Clases en vivo vía Google Meet / Whereby.",
+    "course-detail-06": "Duración de cada sesión",
+    "course-detail-06-tag": "60-90 minutos.",
+    "course-detail-07": "Frecuencia recomendada",
+    "course-detail-07-tag": "2-3 veces por semana.",
+    "course-detail-08": "Material de apoyo",
+    "course-detail-08-tag": "PDFs, ejercicios y acceso a grabaciones.",
+    "course-detail-09": "Examen de nivel",
+    "course-detail-09-tag": "Para asegurarte de estar en el grupo adecuado.",
     "course-detail-btn": "Empieza tu proceso hoy",
     "faqs": {
         "title": "Preguntas frecuentes",
@@ -25,7 +35,15 @@
         "03": "¿Qué pasa si no puedo continuar?",
         "03-answer": "Puedes pausar y reanudar tus sesiones con flexibilidad.",
         "04": "¿Cómo sé si este curso es para mí?",
-        "04-answer": "Por eso ofrecemos una sesión informativa gratuita para explicarte todo y asegurarnos de que encaje con tus metas."
+        "04-answer": "Por eso ofrecemos una sesión informativa gratuita para explicarte todo y asegurarnos de que encaje con tus metas.",
+        "05": "¿Cuál es la diferencia entre estas clases y un curso tradicional de inglés?",
+        "05-answer": "Aquí no memorizamos teoría, practicamos en escenarios reales de negocios.",
+        "06": "¿Necesito un nivel avanzado para unirme?",
+        "06-answer": "No. Hacemos un examen de nivel para ubicarte en el grupo adecuado.",
+        "07": "¿Las clases están grabadas por si no puedo asistir?",
+        "07-answer": "Sí, tendrás acceso a las grabaciones para repasar cuando quieras.",
+        "08": "¿Qué pasa si necesito cambiar de grupo?",
+        "08-answer": "Podemos reubicarte si tu nivel o necesidades cambian."
     },
     "about-oscar": {
         "title": "Sobre Oscar",
@@ -33,7 +51,8 @@
         "subtitle": "Lo que me distingue:",
         "01": "Trabajo con profesionales que usan inglés en su día a día.",
         "02": "He creado métodos prácticos que te ayudan a hablar inglés rápido.",
-        "03": "Mi meta es que ganes independencia y no dependas de clases para siempre."
+        "03": "Mi meta es que ganes independencia y no dependas de clases para siempre.",
+        "btn": "Hablemos sobre su aprendizaje"
     },
     "home": {
         "title": "Oscar Trejo Academy",
@@ -98,7 +117,36 @@
     },
     "english-groups": {
         "title": "Grupos de inglés de negocios",
-        "subtitle": "Domina el inglés para negocios con clases grupales en vivo"
+        "subtitle": "Domina el inglés para negocios con clases grupales en vivo",
+        "slogan": "Aprende en un entorno dinámico con otros profesionales, mejora tu fluidez y gana confianza en situaciones reales de trabajo.",
+        "btn": "Haz tu prueba de nivel",
+        "beneficios": {
+            "01": "Grupos reducidos (2-6 personas)",
+            "01-key": "Atención personalizada y más oportunidades de hablar.",
+            "02": "Simulación de escenarios reales",
+            "02-key": "Reuniones, presentaciones y negociaciones.",
+            "03": "Feedback en vivo",
+            "03-key": "Corrige errores al instante y mejora rápido.",
+            "04": "Estructura clara y progresiva",
+            "04-key": "Clases adaptadas a tu nivel.",
+            "05": "Networking profesional",
+            "05-key": "Conéctate con otros profesionales y practica con propósito.",
+            "btn": "Realiza tu examen de nivel"
+        },
+        "testimonials": {
+            "01": "«Gracias a estas clases ya no me siento inseguro cuando tengo reuniones con clientes en inglés.»",
+            "01-auth": "— Luis G., Gerente de Ventas",
+            "02": "«Practicar en grupo me ayudó a mejorar mi inglés más rápido de lo que imaginé.»",
+            "02-auth": "— Ana P., Ejecutiva de Finanzas",
+            "03": "«Las simulaciones de presentaciones me dieron la confianza que necesitaba para hablar en inglés en mi empresa.»",
+            "03-auth": "— Ricardo T., Consultor"
+        },
+        "plans-pricing": {
+            "01": "Inversión en tu crecimiento profesional",
+            "01-plan": "Los precios varían según el número de sesiones y el nivel de personalización.",
+            "02": "Desde $100 hasta $155 dólares por mes, según el grupo y nivel seleccionado.",
+            "02-plan": "Haz tu examen de nivel y te recomendaremos la mejor opción para ti."
+        }
     },
     "megan-classes": {
         "title": "Clases con Megan",

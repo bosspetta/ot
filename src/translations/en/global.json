@@ -15,6 +15,16 @@
     "course-detail-03-tag": "PDFs, practical exercises, and optional recordings",
     "course-detail-04": "Recommended frequency",
     "course-detail-04-tag": "1-2 times per week depending on your goals",
+    "course-detail-05": "Format",
+    "course-detail-05-tag": "Live classes via Google Meet / Whereby",
+    "course-detail-06": "Session length",
+    "course-detail-06-tag": "60-90 minutes",
+    "course-detail-07": "Recommended frequency",
+    "course-detail-07-tag": "2-3 times per week",
+    "course-detail-08": "Support materials",
+    "course-detail-08-tag": "PDFs, practice exercises, and access to recordings",
+    "course-detail-09": "Placement test",
+    "course-detail-09-tag": "To make sure you're in the right group",
     "course-detail-btn": "Start your journey today",
     "faqs": {
         "title": "Frequently Asked Questions (FAQ)",
@@ -25,7 +35,15 @@
         "03": "What if I can't continue for a while?",
         "03-answer": "You can pause and resume your sessions whenever needed.",
         "04": "How do I know if this is right for me?",
-        "04-answer": "That's exactly why we offer a free discovery session—to walk you through the process and make sure it's the right fit."
+        "04-answer": "That's exactly why we offer a free discovery session—to walk you through the process and make sure it's the right fit.",
+        "05": "What's the difference between these classes and a traditional English course?",
+        "05-answer": "We don't memorize theory—we practice in real-life business situations.",
+        "06": "Do I need an advanced level to join?",
+        "06-answer": "No. We'll give you a placement test to find your best fit.",
+        "07": "Are classes recorded in case I miss one?",
+        "07-answer": "Yes, you'll have access to the recordings to review anytime.",
+        "08": "What if I need to switch groups?",
+        "08-answer": "We can relocate you if your level or needs change."
     },
     "about-oscar": {
         "title": "About Oscar",
@@ -33,7 +51,8 @@
         "subtitle": "What sets me apart",
         "01": "I work with professionals who use English daily.",
         "02": "I've developed practical methods that get you speaking fast.",
-        "03": "My goal is for you to become independent—not dependent on classes."
+        "03": "My goal is for you to become independent—not dependent on classes.",
+        "btn": "Let's talk about your learning"
     },
     "home": {
         "title": "Oscar Trejo Academy",
@@ -98,7 +117,36 @@
     },
     "english-groups": {
         "title": "Business English groups",
-        "subtitle": "Master Business English with live group classes"
+        "subtitle": "Master Business English with live group classes",
+        "slogan": "Learn in a dynamic environment with other professionals, improve your fluency, and build confidence in real work situations.",
+        "btn": "Take your placement test",
+        "beneficios": {
+            "01": "Small groups (2-6 people)",
+            "01-key": "Personalized attention and more chances to speak.",
+            "02": "Real-life scenario simulations",
+            "02-key": "Meetings, presentations, and negotiations.",
+            "03": "Live feedback",
+            "03-key": "Correct mistakes instantly and improve faster.",
+            "04": "Clear, progressive structure",
+            "04-key": "Lessons tailored to your level.",
+            "05": "Professional networking",
+            "05-key": "Connect with peers and practice with purpose.",
+            "btn": "Take your placement test"
+        },
+        "testimonials": {
+            "01": "«Thanks to these classes, I no longer feel nervous when I have meetings with clients in English.»",
+            "01-auth": "— Luis G., Sales Manager",
+            "02": "«Practicing in a group helped me improve my English faster than I imagined.»",
+            "02-auth": "— Ana P., Finance Executive",
+            "03": "«The presentation simulations gave me the confidence I needed to speak up in English at work.»",
+            "03-auth": "— Ricardo T., Consultant"
+        },
+        "plans-pricing": {
+            "01": "Invest in your professional growth",
+            "01-plan": "Prices vary depending on the program length and level of personalization.",
+            "02": "From $100 to $155 USD per month, depending on the group and level you join",
+            "02-plan": "Take your placement test and we'll recommend the best option for you."
+        }
     },
     "megan-classes": {
         "title": "Lessons with Megan",

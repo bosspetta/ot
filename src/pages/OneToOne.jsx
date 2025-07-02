@@ -50,9 +50,6 @@ export default function OneToOne() {
                         <div className="stories__storie">
                             <div className="stories__grid">
                                 <div className="stories__grid__item">
-                                    <div className="stories__grid__item__img">
-                                        <img src="/img/temp/stories-01.jpg" alt="" />
-                                    </div>
                                     <div className="stories__grid__item__text">
                                         <p><span className="stories__grid__item__text__phrase">{t("one-to-one.testimonials.01")}</span> <span className="stories__grid__item__text__author">{t("one-to-one.testimonials.01-person")}</span></p>
                                     </div>
@@ -62,9 +59,6 @@ export default function OneToOne() {
                         <div className="stories__storie">
                             <div className="stories__grid">
                                 <div className="stories__grid__item">
-                                    <div className="stories__grid__item__img">
-                                        <img src="/img/temp/stories-02.jpg" alt="" />
-                                    </div>
                                     <div className="stories__grid__item__text">
                                         <p><span className="stories__grid__item__text__phrase">{t("one-to-one.testimonials.02")}</span> <span className="stories__grid__item__text__author">{t("one-to-one.testimonials.02-person")}</span></p>
                                     </div>
@@ -74,9 +68,6 @@ export default function OneToOne() {
                         <div className="stories__storie">
                             <div className="stories__grid">
                                 <div className="stories__grid__item">
-                                    <div className="stories__grid__item__img">
-                                        <img src="/img/temp/stories-03.jpg" alt="" />
-                                    </div>
                                     <div className="stories__grid__item__text">
                                         <p><span className="stories__grid__item__text__phrase">{t("one-to-one.testimonials.03")}</span> <span className="stories__grid__item__text__author">{t("one-to-one.testimonials.03-person")}</span></p>
                                     </div>
