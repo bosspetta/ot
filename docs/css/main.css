@@ -1777,11 +1777,6 @@ body:has(.cta--oscar) .main-footer {
   margin-bottom: 2rem;
 }
 @media screen and (min-width: 768px) {
-  .stories__storie:nth-child(odd) .stories__grid__item {
-    flex-direction: row-reverse;
-  }
-}
-@media screen and (min-width: 768px) {
   .stories__grid__item {
     display: flex;
     gap: 0 calc(30px * .5);
@@ -1799,7 +1794,6 @@ body:has(.cta--oscar) .main-footer {
 }
 @media screen and (min-width: 768px) {
   .stories__grid__item__text {
-    flex-basis: 50%;
     display: flex;
     align-items: center;
   }
@@ -1812,13 +1806,12 @@ body:has(.cta--oscar) .main-footer {
 }
 .stories__grid__item__text__author {
   display: block;
-  text-align: right;
   font-size: 0.875rem;
   margin-bottom: 15px;
 }
 @media screen and (min-width: 992px) {
   .stories__wrapper {
-    max-width: 75%;
+    max-width: 600px;
     margin-inline: auto;
   }
 }
