@@ -1197,6 +1197,7 @@ body::after {
   height: 100dvh;
   background-color: white;
   transition: right 0.3s ease;
+  padding-top: 30px;
 }
 @media screen and (min-width: 1200px) {
   .main-menu {
@@ -1204,6 +1205,7 @@ body::after {
     top: initial;
     right: initial;
     padding-inline: calc(30px * .5);
+    padding-top: 0;
     display: block;
     width: auto;
     height: auto;
@@ -1392,6 +1394,10 @@ body:has(.cta--oscar) .main-footer {
     font-size: 1.75rem;
   }
 }
+.cta__title + p:has(> strong) {
+  text-align: center;
+  margin-bottom: 1rem;
+}
 .cta__subtitle {
   font-family: "Playfair Display", serif;
   font-weight: normal;
@@ -1431,6 +1437,10 @@ body:has(.cta--oscar) .main-footer {
     grid-column: 1/-1;
     text-align: center;
   }
+}
+.cta__item--100:nth-child(odd), .cta__item--100:nth-child(even), .cta__item--100:nth-child(odd) .cta__text, .cta__item--100:nth-child(even) .cta__text {
+  grid-column: 1/-1;
+  text-align: center;
 }
 .cta__text {
   display: block;
@@ -1838,7 +1848,7 @@ body:has(.cta--oscar) .main-footer {
   left: 0;
   background-color: var(--clr-primary);
   width: 100%;
-  z-index: 1;
+  z-index: 10;
 }
 .language__container {
   display: flex;
