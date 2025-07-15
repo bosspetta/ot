@@ -16,38 +16,38 @@ export default function MeganClasses() {
                         <img src={megan} alt="" />
                     </div>
                     <div className="page-header__data__call-to-action">
-                        <h3 className="page-header__title">Desarrolla confianza al hablar, mejora tu pronunciación y domina el inglés con un enfoque estructurado y efectivo.</h3>
-                        <a href="#" className="page-header__link btn">Únete a las clases con Megan</a>
+                        <h3 className="page-header__title">{t("megan-classes.message")}</h3>
+                        <a href="#" className="page-header__link btn">{t("megan-classes.btn")}</a>
                     </div>
                 </div>
             </header>
             <section className="cta cta--eng-groups">
                 <div className="cta__wrapper">
-                    <h3 className="cta__title">Beneficios clave</h3>
+                    <h3 className="cta__title">{t("one-to-one.benefits.title")}</h3>
                     <ul className="cta__list">
                         <li className="cta__item">
-                            <strong>Corrección precisa y constante</strong>
-                            <span className="cta__text">Ajusta tu pronunciación y estructura en tiempo real.</span>
+                            <strong>{t("megan-classes.beneficios.01")}</strong>
+                            <span className="cta__text">{t("megan-classes.beneficios.01-key")}</span>
                         </li>
                         <li className="cta__item">
-                            <strong>Lectura y dictado guiados</strong>
-                            <span className="cta__text">Mejora tu comprensión y fluidez con ejercicios prácticos.</span>
+                            <strong>{t("megan-classes.beneficios.02")}</strong>
+                            <span className="cta__text">{t("megan-classes.beneficios.02-key")}</span>
                         </li>
                         <li className="cta__item">
-                            <strong>Ambiente relajado y estructurado</strong>
-                            <span className="cta__text">Aprende en un entorno cómodo, pero con objetivos claros.</span>
+                            <strong>{t("megan-classes.beneficios.03")}</strong>
+                            <span className="cta__text">{t("megan-classes.beneficios.03-key")}</span>
                         </li>
                         <li className="cta__item">
-                            <strong>Contenido completo en inglés</strong>
-                            <span className="cta__text">Clases con los mismos temas que los grupos con Oscar, pero con un estilo propio.</span>
+                            <strong>{t("megan-classes.beneficios.04")}</strong>
+                            <span className="cta__text">{t("megan-classes.beneficios.04-key")}</span>
                         </li>
                         <li className="cta__item">
-                            <strong>Prácticas de conversación con IA y diálogos creados para ti</strong>
-                            <span className="cta__text">Refuerza lo aprendido con ejercicios reales.</span>
+                            <strong>{t("megan-classes.beneficios.05")}</strong>
+                            <span className="cta__text">{t("megan-classes.beneficios.05-key")}</span>
                         </li>
                     </ul>
                     <div className="cta__btn-wrapper">
-                        <a href="#" className="btn">Empieza tu proceso con Megan</a>
+                        <a href="#" className="btn">{t("megan-classes.beneficios.btn")}</a>
                     </div>
                 </div>
             </section>
@@ -59,7 +59,7 @@ export default function MeganClasses() {
                             <div className="stories__grid">
                                 <div className="stories__grid__item">
                                     <div className="stories__grid__item__text">
-                                        <p><span className="stories__grid__item__text__phrase">«Estoy súper contenta con Megan, muy profesional aun para su corta edad.»</span> <span className="stories__grid__item__text__author">— Ana R.</span></p>
+                                        <p><span className="stories__grid__item__text__phrase">{t("megan-classes.testimonials.01")}</span> <span className="stories__grid__item__text__author">{t("megan-classes.testimonials.01-auth")}</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -68,7 +68,7 @@ export default function MeganClasses() {
                             <div className="stories__grid">
                                 <div className="stories__grid__item">
                                     <div className="stories__grid__item__text">
-                                        <p><span className="stories__grid__item__text__phrase">«Megan me enseñó a leer estas palabras complicadas. Me dijo: Primero que nada, sé paciente y divídela en sílabas.»</span> <span className="stories__grid__item__text__author">— Eduardo G.</span></p>
+                                        <p><span className="stories__grid__item__text__phrase">{t("megan-classes.testimonials.02")}</span> <span className="stories__grid__item__text__author">{t("megan-classes.testimonials.02-auth")}</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -77,7 +77,7 @@ export default function MeganClasses() {
                             <div className="stories__grid">
                                 <div className="stories__grid__item">
                                     <div className="stories__grid__item__text">
-                                        <p><span className="stories__grid__item__text__phrase">«Estoy contento con Megan, me ha ayudado muchísimo a avanzar y no me siento juzgado.»</span> <span className="stories__grid__item__text__author">— Mario T.</span></p>
+                                        <p><span className="stories__grid__item__text__phrase">{t("megan-classes.testimonials.03")}</span> <span className="stories__grid__item__text__author">{t("megan-classes.testimonials.03-auth")}</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -87,73 +87,73 @@ export default function MeganClasses() {
             </section>
             <section className="cta cta--price">
                 <div className="cta__wrapper">
-                    <h3 className="cta__title">Planes y precios</h3>
+                    <h3 className="cta__title">{t("plans-pricing")}</h3>
                     <ul className="cta__list">
                         <li className="cta__item">
-                            <strong>Inversión en tu aprendizaje</strong>
-                            <span className="cta__text">Los precios varían según la duración del programa y nivel seleccionado.</span>
-                            <span className="cta__text"><strong>Desde $90 hasta $130 por mes, dependiendo del grupo y plan elegido.</strong></span>
-                            <span className="cta__text">Consulta la disponibilidad de grupos y asegura tu lugar.</span>
+                            <strong>{t("investment")}</strong>
+                            <span className="cta__text">{t("investment-text-03")}</span>
+                            <span className="cta__text"><strong>{t("investment-text-04")}</strong></span>
+                            <span className="cta__text">{t("investment-text-05")}</span>
                         </li>
                     </ul>
                     <div className="cta__btn-wrapper">
-                        <a href="#" className="btn">Reserva tu lugar en las clases de Megan</a>
+                        <a href="#" className="btn">{t("investment-btn-megan")}</a>
                     </div>
                 </div>
             </section>
             <section className="cta cta--curso cta--curso--megan">
                 <div className="cta__wrapper">
-                    <h3 className="cta__title">Detalles del curso</h3>
+                    <h3 className="cta__title">{t("course-detail")}</h3>
                     <ul className="cta__list">
                         <li className="cta__item">
-                            <strong>Formato</strong>
-                            <span className="cta__text">Clases en vivo vía Google Meet / Whereby.</span>
+                            <strong>{t("course-detail-10")}</strong>
+                            <span className="cta__text">{t("course-detail-10-tag")}</span>
                         </li>
                         <li className="cta__item">
-                            <strong>Duración de cada sesión</strong>
-                            <span className="cta__text">60-90 minutos.</span>
+                            <strong>{t("course-detail-11")}</strong>
+                            <span className="cta__text">{t("course-detail-11-tag")}</span>
                         </li>
                         <li className="cta__item">
-                            <strong>Frecuencia recomendada</strong>
-                            <span className="cta__text">1-2 veces por semana.</span>
+                            <strong>{t("course-detail-12")}</strong>
+                            <span className="cta__text">{t("course-detail-12-tag")}</span>
                         </li>
                         <li className="cta__item">
-                            <strong>Número de estudiantes por grupo</strong>
-                            <span className="cta__text">6 a 10 participantes.</span>
+                            <strong>{t("course-detail-13")}</strong>
+                            <span className="cta__text">{t("course-detail-13-tag")}</span>
                         </li>
                         <li className="cta__item">
-                            <strong>Material de apoyo</strong>
-                            <span className="cta__text">PDFs, ejercicios de repetición y acceso a IA.</span>
+                            <strong>{t("course-detail-14")}</strong>
+                            <span className="cta__text">{t("course-detail-14-tag")}</span>
                         </li>
                         <li className="cta__item">
-                            <strong>Técnicas utilizadas</strong>
-                            <span className="cta__text">Lectura guiada, dictado, prácticas de conversación y simulaciones.</span>
+                            <strong>{t("course-detail-15")}</strong>
+                            <span className="cta__text">{t("course-detail-15-tag")}</span>
                         </li>
                     </ul>
                     <div className="cta__btn-wrapper">
-                        <a href="#" className="btn">Empieza tu proceso hoy</a>
+                        <a href="#" className="btn">{t("course-detail-btn")}</a>
                     </div>
                 </div>
             </section>
             <section className="cta cta--faqs cta--faqs--groups">
                 <div className="cta__wrapper">
-                    <h3 className="cta__title">Preguntas frecuentes</h3>
+                    <h3 className="cta__title">{t("faqs.title")}</h3>
                     <ul className="cta__list">
                         <li className="cta__item">
-                            <strong>¿Las clases con Megan son solo para pronunciación?</strong>
-                            <span className="cta__text">No, las clases incluyen todos los aspectos del aprendizaje del inglés. Sin embargo, su estilo pone énfasis en fluidez, lectura y corrección precisa para mejorar tu expresión oral y auditiva.</span>
+                            <strong>{t("faqs.01")}</strong>
+                            <span className="cta__text">{t("faqs.01-answer")}</span>
                         </li>
                         <li className="cta__item">
-                            <strong>¿Necesito un nivel específico para inscribirme?</strong>
-                            <span className="cta__text">No, el programa está estructurado para diferentes niveles.</span>
+                            <strong>{t("faqs.02")}</strong>
+                            <span className="cta__text">{t("faqs.02-answer")}</span>
                         </li>
                         <li className="cta__item">
-                            <strong>¿Las clases están grabadas por si no puedo asistir?</strong>
-                            <span className="cta__text">Sí, tendrás acceso a las grabaciones para repasar cuando quieras.</span>
+                            <strong>{t("faqs.03")}</strong>
+                            <span className="cta__text">{t("faqs.03-answer")}</span>
                         </li>
                         <li className="cta__item">
-                            <strong>¿Qué pasa si siento que necesito más correcciones o ayuda extra?</strong>
-                            <span className="cta__text">Megan te dará ejercicios personalizados para mejorar fuera de clase.</span>
+                            <strong>{t("faqs.04")}</strong>
+                            <span className="cta__text">{t("faqs.04-answer")}</span>
                         </li>
                     </ul>
                 </div>
@@ -161,18 +161,18 @@ export default function MeganClasses() {
             <section className="cta cta--oscar cta--megan">
                 <div className="cta__wrapper">
                     <div className="container">
-                        <h3 className="cta__title">Sobre Megan</h3>
-                        <h4 className="cta__subtitle">«Siempre me ha encantado ayudar a las personas a mejorar su inglés, y mis alumnos saben que conmigo pueden practicar sin miedo a equivocarse. Juntos trabajamos en pronunciación, lectura y fluidez para que se sientan seguros en cada conversación.»</h4>
+                        <h3 className="cta__title">{t("about-megan.title")}</h3>
+                        <h4 className="cta__subtitle">{t("about-megan.slogan")}</h4>
                         <ul className="cta__list">
                             <li className="cta__item">
-                                <strong>Lo que me distingue:</strong>
-                                <span className="cta__text">He desarrollado un método basado en repetición, lectura y dictado guiado.</span>
+                                <strong>{t("about-megan.subtitle")}</strong>
+                                <span className="cta__text">{t("about-megan.01")}</span>
                             </li>
-                            <li className="cta__item"><span className="cta__text">Mis clases son relajadas, pero estructuradas para que avances sin presión.</span></li>
-                            <li className="cta__item"><span className="cta__text">Te ayudo a perfeccionar detalles clave en pronunciación y fluidez sin descuidar otros aspectos del inglés.</span></li>
+                            <li className="cta__item"><span className="cta__text">{t("about-megan.02")}</span></li>
+                            <li className="cta__item"><span className="cta__text">{t("about-megan.03")}</span></li>
                         </ul>
                         <div className="cta__btn-wrapper">
-                            <a href="#" className="btn">Reserva tu lugar en las clases de Megan</a>
+                            <a href="#" className="btn">{t("about-megan.btn")}</a>
                         </div>
                     </div>
                 </div>

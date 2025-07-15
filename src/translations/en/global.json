@@ -4,9 +4,14 @@
     "investment": "An investment in your growth",
     "investment-text-01": "Pricing varies depending on the number of sessions and customization.",
     "investment-text-02": "From $120 to $510 USD per month, based on the plan you choose.",
+    "investment-text-03": "Prices vary depending on program length and group level.",
+    "investment-text-04": "From $90 to $130 USD per month, based on the plan and group selected.",
+    "investment-text-05": "Check group availability and secure your spot.",
     "investment-btn": "Book your free discovery session",
+    "investment-btn-megan": "Book your spot in Megan's classes",
     "investment-call": "We'll help you choose the right option.",
     "course-detail": "Course detail",
+
     "course-detail-01": "Duration",
     "course-detail-01-tag": "60-minute sessions",
     "course-detail-02": "Format",
@@ -25,6 +30,18 @@
     "course-detail-08-tag": "PDFs, practice exercises, and access to recordings",
     "course-detail-09": "Placement test",
     "course-detail-09-tag": "To make sure you're in the right group",
+    "course-detail-10": "Format",
+    "course-detail-10-tag": "Live classes via Google Meet / Whereby",
+    "course-detail-11": "Session length",
+    "course-detail-11-tag": "60-90 minutes",
+    "course-detail-12": "Recommended frequency",
+    "course-detail-12-tag": "1-2 times per week",
+    "course-detail-13": "Group size",
+    "course-detail-13-tag": "6 to 10 participants",
+    "course-detail-14": "Support materials",
+    "course-detail-14-tag": "PDFs, repetition exercises, and access to AI",
+    "course-detail-15": "Techniques used",
+    "course-detail-15-tag": "Guided reading, dictation, conversation practice, and simulations",
     "course-detail-btn": "Start your journey today",
     "faqs": {
         "title": "Frequently Asked Questions (FAQ)",
@@ -43,7 +60,15 @@
         "07": "Are classes recorded in case I miss one?",
         "07-answer": "Yes, you'll have access to the recordings to review anytime.",
         "08": "What if I need to switch groups?",
-        "08-answer": "We can relocate you if your level or needs change."
+        "08-answer": "We can relocate you if your level or needs change.",
+        "09": "Are Megan's classes only for pronunciation?",
+        "09-answer": "No, her classes cover all areas of English learning. However, her style focuses on fluency, reading, and accurate correction to improve speaking and listening.",
+        "10": "Do I need a specific level to join?",
+        "10-answer": "No, the program is structured to support multiple levels.",
+        "11": "Are the classes recorded in case I miss one?",
+        "11-answer": "Yes, you'll have access to class recordings to review anytime.",
+        "12": "What if I feel I need more corrections or extra help?",
+        "12-answer": "Megan will give you personalized exercises to practice outside of class."
     },
     "about-oscar": {
         "title": "About Oscar",
@@ -53,6 +78,15 @@
         "02": "I've developed practical methods that get you speaking fast.",
         "03": "My goal is for you to become independent—not dependent on classes.",
         "btn": "Let's talk about your learning"
+    },
+    "about-megan": {
+        "title": "About Megan",
+        "slogan": "«I've always loved helping people improve their English, and my students know they can practice with me without fear of making mistakes. Together, we focus on pronunciation, reading, and fluency so they can feel confident in every conversation.»",
+        "subtitle": "What sets me apart:",
+        "01": "I've developed a method based on repetition, guided reading, and dictation.",
+        "02": "My classes are relaxed but structured so you can improve without pressure.",
+        "03": "I help you fine-tune key areas of pronunciation and fluency without neglecting other aspects of English.",
+        "btn": "Book your spot in Megan's classes"
     },
     "home": {
         "title": "Oscar Trejo Academy",
@@ -150,7 +184,30 @@
     },
     "megan-classes": {
         "title": "Lessons with Megan",
-        "subtitle": "Improve your English with Megan: Fluency, Pronunciation and Comprehension"
+        "subtitle": "Polish your English with Megan: fluency, pronunciation and comprehension.",
+        "message": "Build confidence when speaking, improve your pronunciation, and master English through a structured and effective approach.",
+        "btn": "Join Megan's Classes",
+        "beneficios": {
+            "01": "Accurate and consistent correction",
+            "01-key": "Adjust your pronunciation and sentence structure in real time.",
+            "02": "Guided reading and dictation",
+            "02-key": "Improve comprehension and fluency with practical exercises.",
+            "03": "Relaxed yet structured environment",
+            "03-key": "Learn in a comfortable space with clear goals.",
+            "04": "Fully English content",
+            "04-key": "Same themes as Oscar's group classes, but with Megan's unique style.",
+            "05": "Practice with AI and custom dialogues",
+            "05-key": "Reinforce what you've learned with real-world tasks.",
+            "btn": "Start your journey with Megan"
+        },
+        "testimonials": {
+            "01": "«I'm super happy with Megan—very professional despite her young age.»",
+            "01-auth": "— Ana R.",
+            "02": "«Megan taught me how to read those complicated words. She said: 'First of all, be patient and break it into syllables'.»",
+            "02-auth": "— Eduardo G.",
+            "03": "«I'm really happy with Megan. She's helped me improve a lot, and I never feeljudged.»",
+            "03-auth": "— Mario T."
+        }
     },
     "materials": {
         "title": "Downloadable material - Academia & Microlearning",
