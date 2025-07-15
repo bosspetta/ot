@@ -111,7 +111,47 @@
     "about": {
         "title": "About us & Our method",
         "subtitle": "Who we are & our philosophy",
-        "slogan": "Oscar Trejo Academy: real teaching, practical learning, lasting confidence."
+        "slogan": "Oscar Trejo Academy: real teaching, practical learning, lasting confidence.",
+        "info-01": "Oscar Trejo Academy is a digital space created by educators with a focus on practical, realistic, and real-life learning. Here, we don't just teach English—we help our students develop skills and strategies to express their ideas with confidence, using the tools they already have and staying true to their personality.",
+        "info-02": "Confidence is key when learning any language. That's why we created Confidence Co., the evolution of this academy, which will soon expand to offer more learning opportunities.",
+        "philosophy": {
+            "title": "Our teaching philosophy",
+            "01": "A language is a skill, and like any skill, it requires practice, consistency, and time. But when time is spent on magic formulas that promise shortcuts—or on massive courses that don't consider individual needs—learning becomes a matter of luck. We don't improvise or follow outdated teaching models. We're real, up-to-date educators using effective methods that teach you how to learn.",
+            "02": "Interactive",
+            "02-data": "Live classes with real-time corrections.",
+            "03": "Personalized",
+            "03-data": "Adapted to your level and needs.",
+            "04": "Practical",
+            "04-data": "Focused on real-life use, not unnecessary theory.",
+            "difference-title": "How we're different from traditional methods:",
+            "difference-01": "Traditional courses use a one-size-fits-all formula. We know there are many learning styles, and no single method works for everyone.",
+            "difference-02": "Promises like “Become bilingual in 3 months” sell illusions. We focus on real skills and tangible results.",
+            "difference-03": "Mass learning sacrifices attention to detail. At our academy, every student gets personalized feedback and guidance."
+        },
+        "team": {
+            "title": "Our team",
+            "o-title": "Oscar Trejo - Founder & Head Trainer",
+            "o-message-01": "Vision Architect, lead mentor, and strategist behind our teaching and content. With over 25 years of experience, Oscar has helped hundreds of students gain confidence in English through his structured and realistic approach.",
+            "o-message-02": "What drives me is seeing my students overcome their obstacles and turn fear into opportunity. I don't just teach English—I guide people in developing skills that will serve them for life.",
+            "m-title": "Megan Trejo - Fluency & Pronunciation Specialist",
+            "m-message-01": "Helps students improve their speaking and listening skills, with a focus on correction and deep understanding. Megan specializes in helping learners gain speaking confidence through repetition techniques, guided reading, and strategies to improve pronunciation. Her calm energy and patience create a safe, effective learning environment.",
+            "m-message-02": "Language is a powerful tool. I love helping students perfect their English without fear of mistakes, because learning is also a journey of self-trust.",
+            "close": "In the future, the academy will continue to grow with more specialists in new areas of learning."
+        },
+        "vision": {
+            "title": "Our vision for the future",
+            "subtitle": "From English to a full educational ecosystem.",
+            "slogan": "Oscar Trejo Academy is evolving into Confidence Co., an education and mentorship center with both virtual and physical presence in the United States and Spain. It won't just focus on English—it will offer essential skills for personal and professional growth.",
+            "next-title": "Soon, we'll expand into areas such as:",
+            "next-01": "Math",
+            "next-02": "Communication",
+            "next-03": "Reading & Writing for Children",
+            "next-04": "Parenting School",
+            "next-05": "Business & Growth Strategies",
+            "next-message": "Learning with us is not just about studying a language. It's about stepping into a space where you grow effectively, calmly, and without pressure. We don't judge your performance—we help you accept yourself and improve at your own pace.",
+            "close": "Learning is a matter of trust. When you believe in yourself, learning flows naturally.",
+            "btn": "Learn more about our programs"
+        }
     },
     "academy": {
         "title": "Academy & Microlearning: learn quickly and effectively",
@@ -211,7 +251,58 @@
     },
     "materials": {
         "title": "Downloadable material - Academia & Microlearning",
-        "subtitle": "Practical knowledge at your own pace: explore our workshops and self-study materials"
+        "subtitle": "Practical knowledge at your own pace: explore our workshops and self-study materials",
+        "message": "Downloadable courses and materials designed for flexible learning, with video explanations and practical exercises.",
+        "btn": "Download your material and start improving today",
+        "benefits": {
+            "title": "What you'll find here",
+            "01": "Video Workshops",
+            "01-bnf": "Clear, detailed explanations with supporting materials.",
+            "02": "Practical Exercises",
+            "02-bnf": "Immediate application to reinforce what you learn.",
+            "03": "Self-Assessments",
+            "03-bnf": "Track your progress with interactive tasks.",
+            "04": "Unlimited Access",
+            "04-bnf": "Learn at your own pace, pressure-free.",
+            "05": "High-Impact Knowledge",
+            "05-bnf": "Materials designed to stay with you for years.",
+            "btn": "Explore our catalog"
+        },
+        "examples": {
+            "title": "Examples of available material",
+            "subtitle": "Current workshops",
+            "01": "Essential Idioms to Sound More Natural ($3 USD)",
+            "02": "Survival Dialogs: Key Phrases for Travel (Coming Soon)",
+            "03": "Grammar Made Simple: Essentials to Speak with Precision (Coming Soon)",
+            "04": "100 U.S. Citizenship Interview Questions (Coming Soon)",
+            "05": "We're expanding our catalog—check back regularly for new releases.",
+            "btn": "Discover more"
+        },
+        "microlearning": {
+            "title": "What is microlearning?",
+            "01": "Learn what you need, when you need it.",
+            "01-data": "Microlearning is practical, high-impact learning: knowledge that solves a problem at the exact moment you need it and sticks in your memory.",
+            "02": "Each workshop is designed to give you clear, instantly applicable answers—with long-term results."
+        },
+        "faqs": {
+            "01": "Do I need live classes to benefit from these materials?",
+            "01-answer": "No, the workshops are fully independent and designed for self-study.",
+            "02": "Can I access the materials anytime?",
+            "02-answer": "Yes, once you purchase them, you'll have unlimited access.",
+            "03": "Will you add more workshops in the future?",
+            "03-answer": "Absolutely—we'll keep growing with new English topics and other areas of learning.",
+            "04": "Will there be free content?",
+            "04-answer": "We're considering offering free resources as introductions to key topics."
+        },
+        "academy": {
+            "title": "About the academy and the future of learning",
+            "subtitle": "Our academy is constantly evolving. Today, we offer English resources—but tomorrow, you'll find much more. We believe in lifelong learning and applying knowledge to improve your life.",
+            "label": "What makes this space special",
+            "01": "Specialized, easy-to-consume content.",
+            "02": "Self-paced learning without compromising teaching quality.",
+            "03": "A first step toward a broader, more diverse academy.",
+            "btn": "Start learning today"
+        }
     },
     "footer": {
         "contact": "Contact"

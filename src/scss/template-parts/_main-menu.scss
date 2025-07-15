@@ -8,11 +8,13 @@
     height: 100dvh;
     background-color: white;
     transition: right .3s ease;
+    padding-top: 30px;
     @media screen and (min-width: 1200px) {
         position: relative;
         top: initial;
         right: initial;
         padding-inline: calc(30px * .5);
+        padding-top: 0;
         display: block;
         width: auto;
         height: auto;

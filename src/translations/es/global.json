@@ -110,7 +110,47 @@
     "about": {
         "title": "Sobre nosotros & nuestro método",
         "subtitle": "Quienes somos & nuestra filosofía",
-        "slogan": "Oscar Trejo Academy: enseñanza real, aprendizaje práctico, confianza duradera."
+        "slogan": "Oscar Trejo Academy: enseñanza real, aprendizaje práctico, confianza duradera.",
+        "info-01": "Oscar Trejo Academy es un espacio digital creado por educadores con un enfoque en el aprendizaje práctico, realista y aplicable en la vida real. Aquí, no solo enseñamos inglés; ayudamos a nuestros estudiantes a desarrollar habilidades y estrategias que les permitan expresar sus ideas con seguridad, haciendo uso de las herramientas a su alcance y siguiendo su propia personalidad.",
+        "info-02": "La confianza es clave en el aprendizaje de cualquier idioma. Por eso, desde aquí impulsamos el concepto de Confidence Co., la evolución de esta academia, que en el futuro se expandirá para ofrecer más oportunidades de aprendizaje.",
+        "philosophy": {
+            "title": "Nuestra filosofía de enseñanza",
+            "01": "Nosotros no improvisamos ni seguimos un modelo de enseñanza obsoleto. Somos educadores reales y actualizados, con metodologías efectivas que te enseñan a aprender.",
+            "02": "Interactivo",
+            "02-data": "Clases en vivo con correcciones en el momento.",
+            "03": "Personalizado",
+            "03-data": "Adaptado a tu nivel y necesidades.",
+            "04": "Práctico",
+            "04-data": "Enfocado en aplicación inmediata, no en teoría innecesaria.",
+            "difference-title": "Diferencia con los métodos tradicionales:",
+            "difference-01": "Los cursos tradicionales aplican una sola fórmula para todos. Nosotros sabemos que hay múltiples estilos de aprendizaje, y una sola metodología no sirve para todos.",
+            "difference-02": "Promesas como «Ser bilingüe en 3 meses» venden ilusiones. Nosotros nos enfocamos en habilidades reales y resultados tangibles.",
+            "difference-03": "El aprendizaje masivo sacrifica la atención al detalle. En nuestra academia, cada estudiante recibe corrección y guía individualizada."
+        },
+        "team": {
+            "title": "Nuestro equipo",
+            "o-title": "Oscar Trejo - Fundador y head trainer",
+            "o-message-01": "Vision Architect, mentor principal y estratega del equipo de enseñanza y contenido. Con más de 25 años de experiencia, Oscar ha ayudado a cientos de estudiantes a alcanzar confianza en inglés a través de su método estructurado y realista.",
+            "o-message-02": "Me motiva ver a mis alumnos superar sus obstáculos y convertir sus miedos en oportunidades. No solo enseño inglés, guío a personas para que desarrollen habilidades que les servirán toda la vida.",
+            "m-title": "Megan Trejo - Especialista en fluidez y pronunciación",
+            "m-message-01": "Guía a estudiantes en la mejora de su expresión oral y auditiva, con un enfoque detallado en corrección y comprensión. Megan se especializa en ayudar a sus estudiantes a ganar confianza al hablar, con técnicas de repetición, lectura guiada y estrategias para mejorar la pronunciación. Su energía calmada y su paciencia crean un ambiente de aprendizaje seguro y efectivo.",
+            "m-message-02": "El idioma es una herramienta poderosa. Me gusta ayudar a mis alumnos a perfeccionar su inglés sin miedo al error, porque aprender es también un proceso de autoconfianza.",
+            "close": "En el futuro, la academia seguirá creciendo con más especialistas en otras áreas de aprendizaje."
+        },
+        "vision": {
+            "title": "Nuestra visión de futuro",
+            "subtitle": "Del inglés a un ecosistema educativo integral",
+            "slogan": "La evolución de Oscar Trejo Academy es Confidence Co., un centro educativo y de mentorías con presencia virtual y física en Estados Unidos y España, donde no solo se enseñará inglés, sino también habilidades clave para el crecimiento personal y profesional.",
+            "next-title": "Próximamente expandiremos nuestra oferta a otras áreas, como:",
+            "next-01": "Matemáticas",
+            "next-02": "Comunicación",
+            "next-03": "Lecto-escritura para niños",
+            "next-04": "Escuela para padres",
+            "next-05": "Negocios y estrategias de crecimiento profesional",
+            "next-message": "Aprender con nosotros no es solo estudiar un idioma. Es entrar a un espacio donde te desarrollas de forma efectiva, relajada y sin presiones. No te juzgamos por tu desempeño; te ayudamos a aceptarte y mejorar a tu ritmo.",
+            "close": "Aprender es un proceso de confianza. Si crees en ti, el aprendizaje se vuelve natural.",
+            "btn": "Conoce más sobre nuestros programas"
+        }
     },
     "academy": {
         "title": "Academia & Microlearning: aprende de forma rápida y efectiva",
@@ -210,7 +250,58 @@
     },
     "materials": {
         "title": "Material descargable - Academia & Microlearning",
-        "subtitle": "Conocimiento práctico a tu ritmo: explora nuestros talleres y materiales de autoaprendizaje"
+        "subtitle": "Conocimiento práctico a tu ritmo: explora nuestros talleres y materiales de autoaprendizaje",
+        "message": "Cursos y materiales descargables diseñados para que aprendas de forma flexible, con explicaciones en video y ejercicios prácticos.",
+        "btn": "Descarga tu material y empieza a mejorar hoy",
+        "benefits": {
+            "title": "Qué encontrarás aquí",
+            "01": "Talleres en vídeo",
+            "01-bnf": "Explicaciones claras y detalladas con material de apoyo.",
+            "02": "Ejercicios prácticos",
+            "02-bnf": "Aplicaciones inmediatas para reforzar lo aprendido.",
+            "03": "Autoevaluaciones",
+            "03-bnf": "Mide tu progreso con ejercicios interactivos.",
+            "04": "Acceso ilimitado",
+            "04-bnf": "Aprende a tu ritmo, sin presiones.",
+            "05": "Conocimiento de alto impacto",
+            "05-bnf": "Materiales diseñados para que recuerdes lo aprendido por años.",
+            "btn": "Conoce nuestro catálogo"
+        },
+        "examples": {
+            "title": "Ejemplos de Material Disponible",
+            "subtitle": "Talleres actuales",
+            "01": "Idioms esenciales para hablar con naturalidad ($3 usd)",
+            "02": "Survival dialogs: expresiones clave para viajar (próximamente)",
+            "03": "Gramática sin complicaciones: claves para hablar con precisión (próximamente)",
+            "04": "Las 100 preguntas para la ciudadanía en EE.UU. (próximamente)",
+            "05": "Estamos ampliando el catálogo. Revisa las novedades en continuamente.",
+            "btn": "Descubre más"
+        },
+        "microlearning": {
+            "title": "¿Qué es el Microlearning?",
+            "01": "Aprende lo que necesitas, cuando lo necesitas.",
+            "01-data": "El microlearning es aprendizaje práctico y de alto impacto: conocimiento que resuelve un problema en el momento exacto y deja una huella duradera en tu memoria.",
+            "02": "Cada taller está diseñado para darte respuestas claras y aplicables al instante, con un efecto que durará años."
+        },
+        "faqs": {
+            "01": "¿Necesito tomar clases en vivo para aprovechar estos materiales?",
+            "01-answer": "No, los talleres son 100% independientes y diseñados para autoaprendizaje.",
+            "02": "¿Puedo acceder a los materiales en cualquier momento?",
+            "02-answer": "Sí, una vez adquirido, tienes acceso ilimitado.",
+            "03": "¿Van a agregar más talleres en el futuro?",
+            "03-answer": "Sí, el catálogo crecerá con nuevos temas de inglés y otras áreas de aprendizaje.",
+            "04": "¿Habrá material gratuito?",
+            "04-answer": "Estamos evaluando ofrecer contenido gratuito como introducción a los temas más relevantes."
+        },
+        "academy": {
+            "title": "Sobre la academia y el futuro del aprendizaje",
+            "subtitle": "«Nuestra academia está en constante evolución. Hoy te ofrecemos materiales de inglés, pero en el futuro encontrarás mucho más. Creemos en el aprendizaje continuo y en la aplicación del conocimiento para mejorar tu vida.»",
+            "label": "Lo que hace especial este espacio:",
+            "01": "Contenido especializado y fácil de consumir.",
+            "02": "Autoaprendizaje sin perder calidad en la enseñanza.",
+            "03": "Un primer paso hacia una academia más grande y diversa.",
+            "btn": "Empieza a aprender hoy"
+        }
     },
     "footer": {
         "contact": "Contacto"
