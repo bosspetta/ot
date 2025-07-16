@@ -154,7 +154,39 @@
     },
     "academy": {
         "title": "Academia & Microlearning: aprende de forma rápida y efectiva",
-        "subtitle": "Aprendizaje práctico, rápido y aplicable: explora nuestra academia"
+        "subtitle": "Aprendizaje práctico, rápido y aplicable: explora nuestra academia",
+        "banner-01": "Aquí encuentras cápsulas de conocimiento diseñadas para mejorar tu inglés de manera efectiva, sin rodeos ni cursos extensos.",
+        "banner-02": "Aprende lo que necesitas, cuando lo necesitas.",
+        "banner-btn": "Explora la academia",
+        "microlearning": {
+            "title": "¿Qué es el microlearning y cómo lo aplicamos?",
+            "subtitle": "Aprendizaje en cápsulas: contenido directo, sin relleno.",
+            "01": "El microlearning se basa en unidades de aprendizaje pequeñas, diseñadas para resolver dudas específicas y generar un impacto duradero en tu conocimiento.",
+            "02": "Contenido pregrabado y enfocado en la aplicación inmediata.",
+            "03": "Ejercicios prácticos y materiales descargables para reforzar el aprendizaje.",
+            "04": "Accesible en cualquier momento, sin presiones ni clases largas.",
+            "btn": "Descarga materiales de aprendizaje"
+        },
+        "content": {
+            "title": "Contenido actual en la academia",
+            "subtitle": "Taller disponible ahora",
+            "01": "Idioms Esenciales para Hablar con Naturalidad ($3 USD).",
+            "02": "Explicaciones en video con ejemplos prácticos.",
+            "03": "Ejercicios dentro del entorno de aprendizaje.",
+            "04": "PDF descargable con contenido clave.",
+            "05": "Estamos ampliando nuestro catálogo. Pronto encontrarás nuevos talleres y recursos para mejorar tu inglés y otras áreas del conocimiento.",
+            "btn": "Accede a la academia"
+        },
+        "future": {
+            "title": "El futuro de la academia: más que inglés",
+            "subtitle": "Nuestra academia está en constante crecimiento. Pronto expandiremos nuestro contenido a nuevas áreas del conocimiento.",
+            "slogan": "Próximos temas en desarrollo:",
+            "01": "Inglés práctico para negocios y comunicación.",
+            "02": "Matemáticas y resolución de problemas.",
+            "03": "Ciencias y apoyo en tareas escolares.",
+            "04": "Queremos que esta academia se convierta en un centro de aprendizaje integral, donde encuentres las herramientas necesarias para avanzar en múltiples áreas.",
+            "btn": "Únete a nuestra comunidad"
+        }
     },
     "comunidad": {
         "title": "Nuestra comunidad: un espacio de aprendizaje, crecimiento y confianza",

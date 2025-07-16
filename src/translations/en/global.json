@@ -155,7 +155,39 @@
     },
     "academy": {
         "title": "Academy & Microlearning: learn quickly and effectively",
-        "subtitle": "Practical, fast and applicable learning: explore our academy"
+        "subtitle": "Practical, fast and applicable learning: explore our academy",
+        "banner-01": "Here you'll find knowledge capsules designed to improve your English effectively—no fluff, no endless courses.",
+        "banner-02": "Learn what you need, when you need it.",
+        "banner-btn": "Explore the Academy",
+        "microlearning": {
+            "title": "What is Microlearning and how do we use it?",
+            "subtitle": "Learning in capsules: straight-to-the-point content, no filler.",
+            "01": "Microlearning is based on small, focused units designed to solve specific doubts and make a lasting impact on your knowledge.",
+            "02": "Pre-recorded content focused on immediate application.",
+            "03": "Practical exercises and downloadable materials to reinforce learning.",
+            "04": "Available anytime—no pressure, no long classes.",
+            "btn": "Download Learning Materials"
+        },
+        "content": {
+            "title": "Current Content in the Academy",
+            "subtitle": "Workshop available now",
+            "01": "Essential idioms to speak naturally ($3 USD)",
+            "02": "Video explanations with real-life examples.",
+            "03": "Practice exercises inside the learning platform.",
+            "04": "Downloadable PDF with key content.",
+            "05": "We're expanding our catalog. New workshops and resources to improve your English—and more—are coming soon.",
+            "btn": "Access the Academy"
+        },
+        "future": {
+            "title": "The future of the academy: beyond English",
+            "subtitle": "Our academy is constantly evolving. Soon we'll expand into new areas of knowledge.",
+            "slogan": "Upcoming topics in development:",
+            "01": "Practical English for business and communication",
+            "02": "Math and problem-solving",
+            "03": "Science and homework support",
+            "04": "We want this academy to become a complete learning center—your go-to place to grow across multiple areas.",
+            "btn": "Join Our Community"
+        }
     },
     "comunidad": {
         "title": "Our community: a space for learning, growth and trust",
