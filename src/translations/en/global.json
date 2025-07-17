@@ -191,7 +191,44 @@
     },
     "comunidad": {
         "title": "Our community: a space for learning, growth and trust",
-        "subtitle": "Aprender con confianza: más que un curso, una comunidad"
+        "subtitle": "Learning with confidence: more than a course, a community",
+        "banner-01": "Learning a language goes beyond memorizing rules—it's a process where confidence, interaction, and feedback make all the difference. At Oscar Trejo Academy, we've created a space where every student feels safe to learn and improve without fear of making mistakes",
+        "banner-02": "Here, you're not just taking classes. You're joining a learning environment where communication, practice, and personalized support help you reach fluency.",
+        "banner-btn": "Join our learning community",
+        "experiencia": {
+            "title": "What it's like to learn with us",
+            "01": "Safe, judgment-free environment",
+            "01-key": "No matter your level, you learn without fear.",
+            "02": "Live, personalized corrections",
+            "02-key": "Get feedback right when you need it.",
+            "03": "Accessible, supportive teachers",
+            "03-key": "Oscar, Megan, and the team guide you with patience and clarity.",
+            "04": "Dynamic and varied content",
+            "04-key": "Real conversations, practical exercises, and natural learning.",
+            "05": "Growing community",
+            "05-key": "Students who share experiences, support each other, and move forward together.",
+            "btn": "Discover what it's like to learn with us"
+        },
+        "testimonials": {
+            "title": "What our students say",
+            "01": "This is where I learned to speak without fear. Oscar and Megan don't just teach you gain the confidence to express yourself.",
+            "01-auth": "— Andrea G.",
+            "02": "The live corrections and the way they guide us make every class a real step toward fluency.",
+            "02-auth": "— Luis P.",
+            "03": "I never felt judged for my level. Learning here is different—it's enjoyable, practical, and useful for real life.",
+            "03-auth": "— Juan M.",
+            "btn": "Start your journey today"
+        },
+        "philosophy": {
+            "title": "Our philosophy: learning with confidence",
+            "intro": "At Oscar Trejo Academy, we know learning a language is a journey of confidence. We don't believe in magic formulas or mass courses where no one knows each other. Here, every student is seen, heard, and supported throughout their learning process.",
+            "subtitle": "Our approach is based on:",
+            "01": "A safe, encouraging environment.",
+            "02": "Personalized corrections for every student.",
+            "03": "Practical methods tailored to your learning pace.",
+            "04": "Confidence Co. is our natural evolution. We want our community to grow into a space where every student develops new skills—not just in English, but in many areas.",
+            "btn": "Become part of our community"
+        }
     },
     "one-to-one": {
         "title": "1 to 1 courses with Oscar",

@@ -13,40 +13,40 @@ export default function Comunidad() {
                     <div className="page-header__data__img"></div>
                     <div className="page-header__data__call-to-action">
                         <div className="page-header__excerpt">
-                            <p className="page-header__excerpt__paragraph">Aprender un idioma va más allá de memorizar reglas: es un proceso donde la confianza, la interacción y la retroalimentación hacen la diferencia. En Oscar Trejo Academy, creamos un espacio donde cada estudiante se siente seguro de aprender y mejorar sin miedo al error.</p>
-                            <p className="page-header__excerpt__paragraph">Aquí, no solo tomas clases. Te unes a un entorno de aprendizaje donde la comunicación, la práctica y el acompañamiento personalizado te llevan a alcanzar la fluidez.</p>
-                            <p><a href="#" className="page-header__link btn">Unete a nuestra comunidad de aprendizaje</a></p>
+                            <p className="page-header__excerpt__paragraph">{t("comunidad.banner-01")}</p>
+                            <p className="page-header__excerpt__paragraph">{t("comunidad.banner-02")}</p>
+                            <p><a href="#" className="page-header__link btn">{t("comunidad.banner-btn")}</a></p>
                         </div>
                     </div>
                 </div>
             </header>
             <section className="cta cta--price cta--price--about cta--price--community">
                 <div className="cta__wrapper">
-                    <h3 className="cta__title">La experiencia de aprender con nosotros</h3>
+                    <h3 className="cta__title">{t("comunidad.experiencia.title")}</h3>
                     <ul className="cta__list">
                         <li className="cta__item">
-                            <strong>Ambiente seguro y sin juicios</strong>
-                            <span className="cta__text">No importa tu nivel, aquí aprendes sin miedo.</span>
+                            <strong>{t("comunidad.experiencia.01")}</strong>
+                            <span className="cta__text">{t("comunidad.experiencia.01-key")}</span>
                         </li>
                         <li className="cta__item">
-                            <strong>Correcciones en vivo y personalizadas</strong>
-                            <span className="cta__text">Recibes retroalimentación en el momento justo.</span>
+                            <strong>{t("comunidad.experiencia.02")}</strong>
+                            <span className="cta__text">{t("comunidad.experiencia.02-key")}</span>
                         </li>
                         <li className="cta__item">
-                            <strong>Profesores accesibles y cercanos</strong>
-                            <span className="cta__text">Oscar, Megan y el equipo te guían con paciencia y claridad.</span>
+                            <strong>{t("comunidad.experiencia.03")}</strong>
+                            <span className="cta__text">{t("comunidad.experiencia.03-key")}</span>
                         </li>
                         <li className="cta__item">
-                            <strong>Dinamismo y variedad</strong>
-                            <span className="cta__text">Conversaciones reales, ejercicios prácticos y aprendizaje natural.</span>
+                            <strong>{t("comunidad.experiencia.04")}</strong>
+                            <span className="cta__text">{t("comunidad.experiencia.04-key")}</span>
                         </li>
                         <li className="cta__item">
-                            <strong>Comunidad en crecimiento</strong>
-                            <span className="cta__text">Alumnos que comparten experiencias, se apoyan y avanzan juntos.</span>
+                            <strong>{t("comunidad.experiencia.05")}</strong>
+                            <span className="cta__text">{t("comunidad.experiencia.05-key")}</span>
                         </li>
                         <li className="cta__item">
                             <div className="cta__btn-wrapper">
-                                <a href="#" className="btn">Descubre cómo es aprender con nosotros</a>
+                                <a href="#" className="btn">{t("comunidad.experiencia.btn")}</a>
                             </div>
                         </li>
                     </ul>
@@ -55,12 +55,12 @@ export default function Comunidad() {
             <section className="stories stories--community">
                 <div className="container">
                     <div className="stories__wrapper">
-                        <h3 className="stories__title">Lo que dicen nuestros alumnos</h3>
+                        <h3 className="stories__title">{t("comunidad.testimonials.title")}</h3>
                         <div className="stories__storie">
                             <div className="stories__grid">
                                 <div className="stories__grid__item">
                                     <div className="stories__grid__item__text">
-                                        <p><span className="stories__grid__item__text__phrase">«Aquí aprendí a hablar sin miedo. Oscar y Megan no solo enseñan, sino que te dan confianza para expresarte con seguridad.»</span> <span className="stories__grid__item__text__author">— Andrea G.</span></p>
+                                        <p><span className="stories__grid__item__text__phrase">«{t("comunidad.testimonials.01")}»</span> <span className="stories__grid__item__text__author">{t("comunidad.testimonials.01-auth")}</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -69,7 +69,7 @@ export default function Comunidad() {
                             <div className="stories__grid">
                                 <div className="stories__grid__item">
                                     <div className="stories__grid__item__text">
-                                        <p><span className="stories__grid__item__text__phrase">«Las correcciones en vivo y la forma en que nos guían hacen que cada clase sea un paso real hacia la fluidez.»</span> <span className="stories__grid__item__text__author">— Luis P.</span></p>
+                                        <p><span className="stories__grid__item__text__phrase">«{t("comunidad.testimonials.02")}»</span> <span className="stories__grid__item__text__author">{t("comunidad.testimonials.02-auth")}</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -78,13 +78,13 @@ export default function Comunidad() {
                             <div className="stories__grid">
                                 <div className="stories__grid__item">
                                     <div className="stories__grid__item__text">
-                                        <p><span className="stories__grid__item__text__phrase">«Nunca me sentí juzgado por mi nivel. Aprender aquí es diferente, es ameno, práctico y útil para la vida real.»</span> <span className="stories__grid__item__text__author">— Juan M.</span></p>
+                                        <p><span className="stories__grid__item__text__phrase">«{t("comunidad.testimonials.03")}»</span> <span className="stories__grid__item__text__author">{t("comunidad.testimonials.03-auth")}</span></p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="cta__btn-wrapper">
-                            <a href="#" className="btn">Descubre cómo es aprender con nosotros</a>
+                            <a href="#" className="btn">{t("comunidad.testimonials.btn")}</a>
                         </div>
                     </div>
                 </div>
@@ -92,23 +92,23 @@ export default function Comunidad() {
             <section className="cta cta--oscar cta--materials cta--materials--community">
                 <div className="cta__wrapper">
                     <div className="container">
-                        <h3 className="cta__title">Nuestra filosofía: aprender con confianza</h3>
+                        <h3 className="cta__title">{t("comunidad.philosophy.title")}</h3>
                         <ul className="cta__list">
                             <li className="cta__item">
-                                <span className="cta__text cta__text--italic">En Oscar Trejo Academy, entendemos que aprender un idioma es un proceso de confianza. No creemos en fórmulas mágicas ni en cursos masivos donde nadie se conoce. Aquí, cada estudiante es visto, escuchado y apoyado en su proceso de aprendizaje.</span>
+                                <span className="cta__text cta__text--italic">{t("comunidad.philosophy.intro")}</span>
                             </li>
                             <li className="cta__item">
-                                <strong>Nuestro enfoque se basa en:</strong>
-                                <span className="cta__text">Ambiente seguro y motivador.</span>
-                                <span className="cta__text">Correcciones personalizadas para cada estudiante.</span>
-                                <span className="cta__text">Métodos prácticos y adaptados a tu ritmo de aprendizaje.</span>
+                                <strong>{t("comunidad.philosophy.subtitle")}</strong>
+                                <span className="cta__text">{t("comunidad.philosophy.01")}</span>
+                                <span className="cta__text">{t("comunidad.philosophy.02")}</span>
+                                <span className="cta__text">{t("comunidad.philosophy.03")}</span>
                             </li>
                             <li className="cta__item">
-                                <span className="cta__text cta__text--italic">Confidence Co. es nuestra evolución natural. Queremos que nuestra comunidad crezca y sea un espacio donde cada estudiante pueda desarrollar nuevas habilidades, no solo en inglés, sino en muchas áreas más.</span>
+                                <span className="cta__text cta__text--italic">{t("comunidad.philosophy.04")}</span>
                             </li>
                         </ul>
                         <div className="cta__btn-wrapper">
-                            <a href="#" className="btn">Conviértete en parte de nuestra comunidad</a>
+                            <a href="#" className="btn">{t("comunidad.philosophy.btn")}</a>
                         </div>
                     </div>
                 </div>
