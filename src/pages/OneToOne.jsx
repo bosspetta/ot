@@ -19,7 +19,7 @@ export default function OneToOne() {
                     </div>
                     <div className="page-header__data__call-to-action">
                         <h3 className="page-header__title">{t("one-to-one.slogan")}</h3>
-                        <a href="#" className="page-header__link btn">{t("one-to-one.btn")}</a>
+                        <a target="_blank" rel="noreferrer" href="https://calendar.app.google/eheMWXqytZpMZqS8A" className="page-header__link btn">{t("one-to-one.btn")}</a>
                     </div>
                 </div>
             </header>
@@ -39,7 +39,7 @@ export default function OneToOne() {
                         <span className="cta__text">{t("one-to-one.benefits.05")}</span></li>
                     </ul>
                     <div className="cta__btn-wrapper">
-                        <a href="#" className="btn">{t("one-to-one.benefits.call")}</a>
+                        <a href="/#/about" className="btn">{t("one-to-one.benefits.call")}</a>
                     </div>
                 </div>
             </section>
@@ -88,7 +88,7 @@ export default function OneToOne() {
                         </li>
                     </ul>
                     <div className="cta__btn-wrapper">
-                        <a href="#" className="btn">{t("investment-btn")}</a>
+                        <a target="_blank" rel="noreferrer" href="https://calendar.app.google/eheMWXqytZpMZqS8A" className="btn">{t("investment-btn")}</a>
                     </div>
                     <ul className="cta__list">
                         <li className="cta__item"><span className="cta__text">{t("investment-call")}</span></li>
@@ -109,7 +109,7 @@ export default function OneToOne() {
                         <span className="cta__text">{t("course-detail-04-tag")}</span></li>
                     </ul>
                     <div className="cta__btn-wrapper">
-                        <a href="#" className="btn">{t("course-detail-btn")}</a>
+                        <a target="_blank" rel="noreferrer" href="https://calendar.app.google/eheMWXqytZpMZqS8A" className="btn">{t("course-detail-btn")}</a>
                     </div>
                 </div>
             </section>

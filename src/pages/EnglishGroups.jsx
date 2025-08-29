@@ -19,7 +19,7 @@ export default function EnglishGroups() {
                     </div>
                     <div className="page-header__data__call-to-action">
                         <h3 className="page-header__title">{t("english-groups.slogan")}</h3>
-                        <a href="#" className="page-header__link btn">{t("english-groups.btn")}</a>
+                        <a target="_blank" rel="noreferrer" href="https://forms.gle/RN9iQJ8MUgNDTXyg9" className="page-header__link btn">{t("english-groups.btn")}</a>
                     </div>
                 </div>
             </header>
@@ -39,7 +39,7 @@ export default function EnglishGroups() {
                         <span className="cta__text">{t("english-groups.beneficios.05-key")}</span></li>
                     </ul>
                     <div className="cta__btn-wrapper">
-                        <a href="#" className="btn">{t("english-groups.beneficios.btn")}</a>
+                        <a target="_blank" rel="noreferrer" href="https://forms.gle/RN9iQJ8MUgNDTXyg9" className="btn">{t("english-groups.beneficios.btn")}</a>
                     </div>
                 </div>
             </section>
@@ -90,7 +90,7 @@ export default function EnglishGroups() {
                         </li>
                     </ul>
                     <div className="cta__btn-wrapper">
-                        <a href="#" className="btn">{t("english-groups.btn")}</a>
+                        <a target="_blank" rel="noreferrer" href="https://forms.gle/RN9iQJ8MUgNDTXyg9" className="btn">{t("english-groups.btn")}</a>
                     </div>
                 </div>
             </section>
@@ -120,7 +120,7 @@ export default function EnglishGroups() {
                         </li>
                     </ul>
                     <div className="cta__btn-wrapper">
-                        <a href="#" className="btn">{t("course-detail-btn")}</a>
+                        <a target="_blank" rel="noreferrer" href="https://calendar.app.google/eheMWXqytZpMZqS8A" className="btn">{t("course-detail-btn")}</a>
                     </div>
                 </div>
             </section>
@@ -159,7 +159,7 @@ export default function EnglishGroups() {
                             <li className="cta__item"><span className="cta__text">{t("about-oscar.03")}</span></li>
                         </ul>
                         <div className="cta__btn-wrapper">
-                            <a href="#" className="btn">{t("about-oscar.btn")}</a>
+                            <a target="_blank" rel="noreferrer" href="https://calendar.app.google/eheMWXqytZpMZqS8A" className="btn">{t("about-oscar.btn")}</a>
                         </div>
                     </div>
                 </div>

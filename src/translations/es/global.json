@@ -130,7 +130,7 @@
         "team": {
             "title": "Nuestro equipo",
             "o-title": "Oscar Trejo - Fundador y head trainer",
-            "o-message-01": "Vision Architect, mentor principal y estratega del equipo de enseñanza y contenido. Con más de 25 años de experiencia, Oscar ha ayudado a cientos de estudiantes a alcanzar confianza en inglés a través de su método estructurado y realista.",
+            "o-message-01": "Me motiva ver a mis alumnos superar sus obstáculos y convertir sus miedos en oportunidades. No solo enseño inglés, guío a personas para que desarrollen habilidades que les servirán toda la vida.",
             "o-message-02": "Me motiva ver a mis alumnos superar sus obstáculos y convertir sus miedos en oportunidades. No solo enseño inglés, guío a personas para que desarrollen habilidades que les servirán toda la vida.",
             "m-title": "Megan Trejo - Especialista en fluidez y pronunciación",
             "m-message-01": "Guía a estudiantes en la mejora de su expresión oral y auditiva, con un enfoque detallado en corrección y comprensión. Megan se especializa en ayudar a sus estudiantes a ganar confianza al hablar, con técnicas de repetición, lectura guiada y estrategias para mejorar la pronunciación. Su energía calmada y su paciencia crean un ambiente de aprendizaje seguro y efectivo.",
@@ -374,5 +374,17 @@
     },
     "footer": {
         "contact": "Contacto"
+    },
+    "popup": {
+        "title-01": "¡Sé parte de nuestra comunidad!",
+        "entradilla": "Aunque no estés inscrito en un curso, puedes mantenerte cerca. Accede a contenido exclusivo, adelantos, ofertas y más.",
+        "title-02": "Elige cómo quieres conectar:",
+        "instagram": "Canal Instagram",
+        "instagram-desc": "Actualizaciones rápidas, frases útiles y contenido detrás de cámaras.",
+        "instagram-btn": "Unirme en Instagram",
+        "facebook": "Grupo en Facebook",
+        "facebook-desc": "Únete a más de 2,000 estudiantes. Recibe acceso anticipado e inspírate con otros.",
+        "facebook-btn": "Unirme al grupo de Facebook",
+        "no-spam": "Sin spam. Solo contenido real y útil para mejorar tu inglés."
     }
 }

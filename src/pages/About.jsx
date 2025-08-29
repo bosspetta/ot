@@ -97,7 +97,7 @@ export default function About() {
                             </li>
                         </ul>
                         <div className="cta__btn-wrapper">
-                            <a href="#" className="btn">{t("about.vision.btn")}</a>
+                            <a href="/" className="btn">{t("about.vision.btn")}</a>
                         </div>
                     </div>
                 </div>

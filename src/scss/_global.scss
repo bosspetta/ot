@@ -7,6 +7,9 @@ body {
     &.menu-opened {
         overflow: hidden;
     }
+    &:has(.popup-comunidad__opened) {
+        overflow: hidden;
+    }
 }
 
 img {
@@ -38,6 +41,11 @@ a {
             margin-right: 0;
         }
     }
+}
+
+button.btn {
+    border: none;
+    margin-inline: auto;
 }
 
 .page-title {

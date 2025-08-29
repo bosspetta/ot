@@ -19,7 +19,7 @@ export default function Materials() {
                     </div>
                     <div className="page-header__data__call-to-action">
                         <h3 className="page-header__title">{t("materials.message")}</h3>
-                        <a href="#" className="page-header__link btn">{t("materials.btn")}</a>
+                        <a target="_blank" rel="noreferrer" href="https://academia.oscartrejo.online/home" className="page-header__link btn">{t("materials.btn")}</a>
                     </div>
                 </div>
             </header>
@@ -49,7 +49,7 @@ export default function Materials() {
                         </li>
                     </ul>
                     <div className="cta__btn-wrapper">
-                        <a href="#" className="btn">{t("materials.benefits.btn")}</a>
+                        <a target="_blank" rel="noreferrer" href="https://academia.oscartrejo.online/home" className="btn">{t("materials.benefits.btn")}</a>
                     </div>
                 </div>
             </section>
@@ -75,7 +75,7 @@ export default function Materials() {
                         </li>
                     </ul>
                     <div className="cta__btn-wrapper">
-                        <a href="#" className="btn">{t("materials.examples.btn")}</a>
+                        <a target="_blank" rel="noreferrer" href="https://academia.oscartrejo.online/home" className="btn">{t("materials.examples.btn")}</a>
                     </div>
                 </div>
             </section>
@@ -130,7 +130,7 @@ export default function Materials() {
                             <li className="cta__item"><span className="cta__text">{t("materials.academy.03")}</span></li>
                         </ul>
                         <div className="cta__btn-wrapper">
-                            <a href="#" className="btn">{t("materials.academy.btn")}</a>
+                            <a target="_blank" rel="noreferrer" href="https://academia.oscartrejo.online/home" className="btn">{t("materials.academy.btn")}</a>
                         </div>
                     </div>
                 </div>

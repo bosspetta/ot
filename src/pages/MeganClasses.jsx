@@ -17,7 +17,7 @@ export default function MeganClasses() {
                     </div>
                     <div className="page-header__data__call-to-action">
                         <h3 className="page-header__title">{t("megan-classes.message")}</h3>
-                        <a href="#" className="page-header__link btn">{t("megan-classes.btn")}</a>
+                        <a target="_blank" rel="noreferrer" href="https://calendar.app.google/eheMWXqytZpMZqS8A" className="page-header__link btn">{t("megan-classes.btn")}</a>
                     </div>
                 </div>
             </header>
@@ -47,14 +47,14 @@ export default function MeganClasses() {
                         </li>
                     </ul>
                     <div className="cta__btn-wrapper">
-                        <a href="#" className="btn">{t("megan-classes.beneficios.btn")}</a>
+                        <a target="_blank" rel="noreferrer" href="https://calendar.app.google/eheMWXqytZpMZqS8A" className="btn">{t("megan-classes.beneficios.btn")}</a>
                     </div>
                 </div>
             </section>
             <section className="stories">
                 <div className="container">
                     <div className="stories__wrapper">
-                        <h3 className="stories__title">Testimonios</h3>
+                        <h3 className="stories__title">{t("testimonials")}</h3>
                         <div className="stories__storie">
                             <div className="stories__grid">
                                 <div className="stories__grid__item">
@@ -97,7 +97,7 @@ export default function MeganClasses() {
                         </li>
                     </ul>
                     <div className="cta__btn-wrapper">
-                        <a href="#" className="btn">{t("investment-btn-megan")}</a>
+                        <a target="_blank" rel="noreferrer" href="https://calendar.app.google/eheMWXqytZpMZqS8A" className="btn">{t("investment-btn-megan")}</a>
                     </div>
                 </div>
             </section>
@@ -131,7 +131,7 @@ export default function MeganClasses() {
                         </li>
                     </ul>
                     <div className="cta__btn-wrapper">
-                        <a href="#" className="btn">{t("course-detail-btn")}</a>
+                        <a target="_blank" rel="noreferrer" href="https://calendar.app.google/eheMWXqytZpMZqS8A" className="btn">{t("course-detail-btn")}</a>
                     </div>
                 </div>
             </section>
@@ -172,7 +172,7 @@ export default function MeganClasses() {
                             <li className="cta__item"><span className="cta__text">{t("about-megan.03")}</span></li>
                         </ul>
                         <div className="cta__btn-wrapper">
-                            <a href="#" className="btn">{t("about-megan.btn")}</a>
+                            <a target="_blank" rel="noreferrer" href="https://calendar.app.google/eheMWXqytZpMZqS8A" className="btn">{t("about-megan.btn")}</a>
                         </div>
                     </div>
                 </div>

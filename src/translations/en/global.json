@@ -375,5 +375,17 @@
     },
     "footer": {
         "contact": "Contact"
+    },
+    "popup": {
+        "title-01": "Be part of our community!",
+        "entradilla": "Even if you're not taking a course right now, stay close. Get access to behind-the-scenes content, special offers, and more.",
+        "title-02": "Choose how you want to connect:",
+        "instagram": "Instagram Channel",
+        "instagram-desc": "Quick updates, phrases, sneak peeks and useful tips.",
+        "instagram-btn": "Join on Instagram",
+        "facebook": "Facebook Group",
+        "facebook-desc": "Join 2,000+ learners, get early access and interact with us.",
+        "facebook-btn": "Join the Facebook Group",
+        "no-spam": "No spam. Just real English and real value."
     }
 }

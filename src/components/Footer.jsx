@@ -4,8 +4,8 @@ export default function Footer() {
         <footer className="main-footer">
             <div className="main-footer__col">
                 <ul className="main-footer__contact">
-                    <li><span>Email:</span> <strong>conoce@oscartrejo.online</strong></li>
-                    <li><span>WhatsApp:</span> <strong>+52 55 7229 2354</strong></li>
+                    <li><span>Email:</span> <a href="mailto:conoce@oscartrejo.online" title="Email a Oscar Trejo Academy"><strong>conoce@oscartrejo.online</strong></a></li>
+                    <li><span>WhatsApp:</span> <a href="https://api.whatsapp.com/send/?phone=16893195853" title="WhatsApp con Oscar Trejo Academy"><strong>+1 (689) 319-5853</strong></a></li>
                 </ul>
             </div>
             <div className="main-footer__col">
@@ -14,43 +14,37 @@ export default function Footer() {
             <div className="main-footer__col">
                 <ul className="main-footer__social">
                     <li className="main-footer__social__item main-footer__social__item--instagram">
-                        <a href="" title="Go to " className="main-footer__social__link">
+                        <a href="https://www.instagram.com/oscartrejoingles/" title="Go to " target="_blank" rel="noreferrer" className="main-footer__social__link">
                             <img src="/img/ico/ico-instagram.svg" alt="" />
                             <span className="sr-only">Instagram</span>
                         </a>
                     </li>
                     <li className="main-footer__social__item main-footer__social__item--tiktok">
-                        <a href="" title="Go to " className="main-footer__social__link">
+                        <a href="https://www.tiktok.com/@oscartrejoingles" title="Go to " target="_blank" rel="noreferrer" className="main-footer__social__link">
                             <img src="/img/ico/ico-tiktok.svg" alt="" />
                             <span className="sr-only">Tiktok</span>
                         </a>
                     </li>
                     <li className="main-footer__social__item main-footer__social__item--facebook">
-                        <a href="" title="Go to " className="main-footer__social__link">
+                        <a href="https://www.facebook.com/oscartrejoonline/" title="Go to " target="_blank" rel="noreferrer" className="main-footer__social__link">
                             <img src="/img/ico/ico-facebook.svg" alt="" />
                             <span className="sr-only">Facebook</span>
                         </a>
                     </li>
                     <li className="main-footer__social__item main-footer__social__item--youtube">
-                        <a href="" title="Go to " className="main-footer__social__link">
+                        <a href="https://www.youtube.com/@oscartrejoonline" title="Go to " target="_blank" rel="noreferrer" className="main-footer__social__link">
                             <img src="/img/ico/ico-youtube.svg" alt="" />
                             <span className="sr-only">YouTube</span>
                         </a>
                     </li>
                     <li className="main-footer__social__item main-footer__social__item--linkedin">
-                        <a href="" title="Go to " className="main-footer__social__link">
+                        <a href="https://www.linkedin.com/company/oscar-trejo-online/" title="Go to " target="_blank" rel="noreferrer" className="main-footer__social__link">
                             <img src="/img/ico/ico-linkedin.svg" alt="" />
                             <span className="sr-only">Linkedin</span>
                         </a>
                     </li>
-                    <li className="main-footer__social__item main-footer__social__item--x">
-                        <a href="" title="Go to " className="main-footer__social__link">
-                            <img src="/img/ico/ico-x.svg" alt="" />
-                            <span className="sr-only">X</span>
-                        </a>
-                    </li>
                     <li className="main-footer__social__item main-footer__social__item--whatsapp">
-                        <a href="" title="Go to " className="main-footer__social__link">
+                        <a href="https://api.whatsapp.com/send/?phone=16893195853" title="Go to " target="_blank" rel="noreferrer" className="main-footer__social__link">
                             <img src="/img/ico/ico-whatsapp.svg" alt="" />
                             <span className="sr-only">WhatsApp</span>
                         </a>
