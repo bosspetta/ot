@@ -26,13 +26,13 @@ export default function Footer() {
                         </a>
                     </li>
                     <li className="main-footer__social__item main-footer__social__item--facebook">
-                        <a href="https://www.facebook.com/oscartrejoonline/" title="Go to " target="_blank" rel="noreferrer" className="main-footer__social__link">
+                        <a href="https://www.facebook.com/oscartrejoingles" title="Go to " target="_blank" rel="noreferrer" className="main-footer__social__link">
                             <img src="/img/ico/ico-facebook.svg" alt="" />
                             <span className="sr-only">Facebook</span>
                         </a>
                     </li>
                     <li className="main-footer__social__item main-footer__social__item--youtube">
-                        <a href="https://www.youtube.com/@oscartrejoonline" title="Go to " target="_blank" rel="noreferrer" className="main-footer__social__link">
+                        <a href="https://www.youtube.com/@oscartrejoingles" title="Go to " target="_blank" rel="noreferrer" className="main-footer__social__link">
                             <img src="/img/ico/ico-youtube.svg" alt="" />
                             <span className="sr-only">YouTube</span>
                         </a>

@@ -59,7 +59,7 @@ export default function About() {
                         <div className="cta--about__data__row">
                             <h4 className="cta--about__data__title">{t("about.team.o-title")}</h4>
                             <p className="cta--about__data__info">{t("about.team.o-message-01")}</p>
-                            <p className="cta--about__data__info cta--about__data__info--close">{t("about.team.o-message-01")}</p>
+                            <p className="cta--about__data__info cta--about__data__info--close">{t("about.team.o-message-02")}</p>
                         </div>
                         <div className="cta--about__data__row">
                             <h4 className="cta--about__data__title">{t("about.team.m-title")}</h4>
