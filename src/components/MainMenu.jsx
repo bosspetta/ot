@@ -53,7 +53,7 @@ export default function MainMenu() {
                 <li className="main-menu__item">
                     <NavLink
                         className={ ({isActive}) => isActive ? 'main-menu__link selected' : 'main-menu__link' }
-                        to='https://www.oscartrejo.online/blog/'
+                        to='https://blog.oscartrejo.online/'
                         target="_blank"
                         onClick={hideMenu}>
                         Blog
