@@ -1,0 +1,11 @@
+# robots.txt for oscartrejo.online
+# SEO-friendly version for React site
+
+User-agent: *
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+Disallow: /tmp/
+Allow: /
+
+Sitemap: https://www.oscartrejo.online/sitemap.xml
