@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 :root {
   --clr-primary: #070071;
+  --clr-secondary: #686777;
   --clr-primary-light: #bfbfd9;
   --clr-bg-light: #e9e9f4;
   --clr-bg-white-light: #f9f9f9;
@@ -2002,6 +2003,79 @@ body:has(.cta--oscar) .main-footer {
   font-weight: 500;
   height: 100%;
   min-height: 126px;
+}
+
+body:has(.page-content--social-media) .main-menu,
+body:has(.page-content--social-media) .hamburger,
+body:has(.page-content--social-media) .language {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  body:has(.page-content--social-media) .site-title {
+    display: initial;
+    width: initial;
+  }
+}
+body:has(.page-content--social-media) .site-title__home-link {
+  background: transparent url("/img/logo-ot-academy-horizontal.svg") center center no-repeat;
+}
+@media screen and (min-width: 1200px) {
+  body:has(.page-content--social-media) .site-title__home-link {
+    width: auto;
+    height: 100px;
+  }
+}
+body:has(.page-content--social-media) .page-title {
+  text-align: center;
+  font-size: 1.375rem;
+  border-top: 1px solid var(--clr-bg-light);
+  margin-bottom: 0;
+  padding-block: 1rem;
+}
+body:has(.page-content--social-media) .container + .cta {
+  margin-block: 0;
+  border-top: 1px solid var(--clr-primary-light);
+  border-bottom: 1px solid var(--clr-primary-light);
+}
+body:has(.page-content--social-media) .main-footer {
+  margin-top: 0;
+  border-top: 0;
+}
+
+.cta__btn-wrapper--social-media {
+  margin-bottom: 0;
+}
+
+.social-media__links {
+  list-style-type: none;
+  padding: 0;
+  margin: 1rem 0;
+  display: grid;
+  gap: calc(60px * .5);
+}
+.social-media__links .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: calc(15px * .5);
+  max-width: 350px;
+  margin-inline: auto;
+}
+.social-media__links .btn:not(.btn--destacado) {
+  background-color: var(--clr-secondary);
+}
+.social-media__links .btn__ico {
+  width: 15px;
+  height: 15px;
+}
+.social-media__links .btn__thats-ok .btn__ico {
+  background: transparent url("/img/ico/ico-target.svg") center center no-repeat;
+}
+.social-media__links .btn__agenda .btn__ico {
+  background: transparent url("/img/ico/ico-calendar.svg") center center no-repeat;
+}
+.social-media__links .btn__conoce .btn__ico {
+  background: transparent url("/img/ico/ico-world.svg") center center no-repeat;
 }
 
 /*# sourceMappingURL=main.css.map */
