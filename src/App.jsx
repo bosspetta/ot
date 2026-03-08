@@ -11,6 +11,7 @@ import Materials from './pages/Materials'
 import OneToOne from './pages/OneToOne'
 import EnglishGroups from './pages/EnglishGroups'
 import MeganClasses from './pages/MeganClasses'
+import SocialMedia from './pages/SocialMedia'
 
 import NoMatch from './pages/NoMatch'
 import Comunidad from './pages/Comunidad'
@@ -30,6 +31,7 @@ export default function App() {
                         <Route path='/groups' element={<EnglishGroups />} />
                         <Route path='/megan-classes' element={<MeganClasses />} />
                         <Route path='/materials' element={<Materials />} />
+                        <Route path='/social-media' element={<SocialMedia />} />
 
                         <Route path='*' element={<NoMatch status={404} />} />
                     </Route>
