@@ -11,21 +11,21 @@ export default function SocialMedia() {
                         <ul className="social-media__links">
                             <li  className="social-media__link">
                                 <a target="_blank" rel="noreferrer" href="https://go.oscartrejo.online/thatsok" className="btn btn__thats-ok btn--destacado">
-                                <span className="btn__ico"></span>
-                                <span className="btn__label">That&rsquo;s OK</span>
-                            </a>
+                                    <span className="btn__ico"></span>
+                                    <span className="btn__label">That&rsquo;s OK</span>
+                                </a>
                             </li>
                             <li  className="social-media__link">
-                                <a target="_blank" rel="noreferrer" href="https://go.oscartrejo.online/thatsok" className="btn btn__agenda">
-                                <span className="btn__ico"></span>
-                                <span className="btn__label">Agenda sesión diagnóstico (Gratis)</span>
-                            </a>
+                                <a target="_blank" rel="noreferrer" href="https://calendar.app.google/ps2wBUQxvyobrDRx9" className="btn btn__agenda">
+                                    <span className="btn__ico"></span>
+                                    <span className="btn__label">Agenda sesión diagnóstico (Gratis)</span>
+                                </a>
                             </li>
                             <li  className="social-media__link">
-                                <a target="_blank" rel="noreferrer" href="https://go.oscartrejo.online/thatsok" className="btn btn__conoce">
-                                <span className="btn__ico"></span>
-                                <span className="btn__label">Conoce todos mis programas</span>
-                            </a>
+                                <a target="_blank" rel="noreferrer" href="/" className="btn btn__conoce">
+                                    <span className="btn__ico"></span>
+                                    <span className="btn__label">Conoce todos mis programas</span>
+                                </a>
                             </li>
                         </ul>
                     </div>
