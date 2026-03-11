@@ -31,7 +31,7 @@ export default function App() {
                         <Route path='/groups' element={<EnglishGroups />} />
                         <Route path='/megan-classes' element={<MeganClasses />} />
                         <Route path='/materials' element={<Materials />} />
-                        <Route path='/social-media' element={<SocialMedia />} />
+                        <Route path='/enlaces' element={<SocialMedia />} />
 
                         <Route path='*' element={<NoMatch status={404} />} />
                     </Route>
