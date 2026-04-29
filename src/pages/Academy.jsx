@@ -28,7 +28,7 @@ export default function Academy() {
                             <div className="page-header__excerpt">
                                 <p className="page-header__excerpt__paragraph">{t("academy.banner-01")}</p>
                                 <p className="page-header__excerpt__paragraph">{t("academy.banner-02")}</p>
-                                <p><a target="_blank" rel="noreferrer" href="https://academia.oscartrejo.online/home" className="page-header__link btn">{t("academy.banner-btn")}</a></p>
+                                <p><a target="_blank" rel="noreferrer" href="https://www.academia.oscartrejo.online/home" className="page-header__link btn">{t("academy.banner-btn")}</a></p>
                             </div>
                         </div>
                     </div>
@@ -45,7 +45,7 @@ export default function Academy() {
                                 <span className="cta__text">{t("academy.microlearning.04")}</span>
                                 <br />
                                 <div className="cta__btn-wrapper">
-                                    <a target="_blank" rel="noreferrer" href="https://academia.oscartrejo.online/home" className="btn">{t("academy.microlearning.btn")}</a>
+                                    <a target="_blank" rel="noreferrer" href="https://www.academia.oscartrejo.online/home" className="btn">{t("academy.microlearning.btn")}</a>
                                 </div>
                             </li>
                         </ul>
@@ -65,7 +65,7 @@ export default function Academy() {
                             </li>
                         </ul>
                         <div className="cta__btn-wrapper">
-                            <a target="_blank" rel="noreferrer" href="https://academia.oscartrejo.online/home" className="btn">{t("academy.content.btn")}</a>
+                            <a target="_blank" rel="noreferrer" href="https://www.academia.oscartrejo.online/home" className="btn">{t("academy.content.btn")}</a>
                         </div>
                     </div>
                 </section>

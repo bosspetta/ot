@@ -10,7 +10,7 @@ export default function SocialMedia() {
                     <div className="cta__btn-wrapper cta__btn-wrapper--social-media">
                         <ul className="social-media__links">
                             <li  className="social-media__link">
-                                <a target="_blank" rel="noreferrer" href="https://go.oscartrejo.online/thatsok" className="btn btn__thats-ok btn--destacado">
+                                <a target="_blank" rel="noreferrer" href="https://www.go.oscartrejo.online/thatsok" className="btn btn__thats-ok btn--destacado">
                                     <span className="btn__ico"></span>
                                     <span className="btn__label">That&rsquo;s OK</span>
                                 </a>
